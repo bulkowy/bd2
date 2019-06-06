@@ -1,0 +1,10 @@
+mlodszy programista
+starszy programista
+menedzer
+projekt menedzer
+sprzatacz
+stazysta
+szef
+hr
+administrator
+kierowca

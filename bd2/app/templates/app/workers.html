@@ -1,0 +1,12 @@
+{% extends "app/base_generic.html" %}
+
+{% block content %}
+  <h1>Pracownicy</h1>
+
+  {% for worker in workers %}
+    <li>
+      <a href="{% url 'worker_detail' worker.id %}">{{ worker.name }} {{ worker.surname }}</a>
+    </li>
+  {% endfor %}
+
+{% endblock %}

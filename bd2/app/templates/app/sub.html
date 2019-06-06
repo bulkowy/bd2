@@ -1,0 +1,18 @@
+{% extends "app/base_generic.html" %}
+
+{% block content %}
+  {% if sub %}
+    <h1>Zastępstwo pracownika <a href="{% url 'worker_detail' sub.substituted_worker.id %}">{{ sub.substituted_worker.name }} {{ sub.substituted_worker.surname }}</a></h1>
+
+    Zastępowany jest przez: <a href="{% url 'worker_detail' sub.substituting_worker.id %}">{{ sub.substituting_worker.name }} {{ sub.substituting_worker.surname }}</a></br>
+
+    Powód Zastępstwa: {{ sub.reason }}
+
+    Uprawnienia uzyskane przez zastępującego:
+
+  {% else %}
+    nie ma 
+  
+  {% endif %}
+
+{% endblock %}

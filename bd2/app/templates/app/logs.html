@@ -1,0 +1,12 @@
+{% extends "app/base_generic.html" %}
+
+{% block content %}
+  <h1>Wpisy Historyczne</h1>
+
+  {% for log in logs %}
+    <li>
+      <a href="{% url 'log_detail' log.id %}">Zmiana uprawnień pracownika {{ log.logstituted_worker.name }} {{ log.logstituted_worker.surname }}</a>
+    </li>
+  {% endfor %}
+
+{% endblock %}

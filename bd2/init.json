@@ -1,0 +1,6123 @@
+[
+    {
+        "model": "app.permission",
+        "pk": 1,
+        "fields": {
+            "name": "wejscie do serwerowni"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 2,
+        "fields": {
+            "name": "uzytkowanie klastra"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 3,
+        "fields": {
+            "name": "obsluga komputera"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 4,
+        "fields": {
+            "name": "dostep do vpn"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 5,
+        "fields": {
+            "name": "posiadanie samochodu sluzbowego"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 6,
+        "fields": {
+            "name": "posiadanie telefonu sluzbowego"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 7,
+        "fields": {
+            "name": "praca na wysokosciach"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 8,
+        "fields": {
+            "name": "korzystanie z karty multisport"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 9,
+        "fields": {
+            "name": "wejscie na strych"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 10,
+        "fields": {
+            "name": "wejscie na dach"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 11,
+        "fields": {
+            "name": "przyznawanie podwyzek"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 12,
+        "fields": {
+            "name": "zarzadzanie ludzmi"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 13,
+        "fields": {
+            "name": "rozmowa z mediami"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 14,
+        "fields": {
+            "name": "zarzadanie projektami"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 15,
+        "fields": {
+            "name": "zamawianie pizzy"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 16,
+        "fields": {
+            "name": "wystawianie zaswiadczen"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 17,
+        "fields": {
+            "name": "korzystanie z automatu do kawy"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 18,
+        "fields": {
+            "name": "mozliwosc mozliwosci przynaleznosci do zwiazku zawodowego"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 19,
+        "fields": {
+            "name": "wystawianie certyfikatow"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 20,
+        "fields": {
+            "name": "poslugiwanie sie substancjami chemicznymi"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 21,
+        "fields": {
+            "name": "zatrudnianie personelu"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 22,
+        "fields": {
+            "name": "naprawianie"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 23,
+        "fields": {
+            "name": "obsluga bazy danych"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 24,
+        "fields": {
+            "name": "administrowanie"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 25,
+        "fields": {
+            "name": "zostawanie po godzinach"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 26,
+        "fields": {
+            "name": "praca w soboty"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 27,
+        "fields": {
+            "name": "praca zdalna"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 28,
+        "fields": {
+            "name": "modyfikacja sprzetu"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 29,
+        "fields": {
+            "name": "korzystanie z toalety"
+        }
+    },
+    {
+        "model": "app.permission",
+        "pk": 30,
+        "fields": {
+            "name": "posiadanie karty sluzbowej"
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 1,
+        "fields": {
+            "name": "mlodszy programista",
+            "permissions": [
+                1,
+                3,
+                4,
+                15,
+                17,
+                27,
+                29,
+                30
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 2,
+        "fields": {
+            "name": "starszy programista",
+            "permissions": [
+                1,
+                2,
+                3,
+                4,
+                8,
+                17,
+                27,
+                29,
+                30
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 3,
+        "fields": {
+            "name": "menedzer",
+            "permissions": [
+                1,
+                3,
+                4,
+                8,
+                17,
+                23,
+                29,
+                30
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 4,
+        "fields": {
+            "name": "projekt menedzer",
+            "permissions": [
+                1,
+                3,
+                4,
+                6,
+                8,
+                11,
+                13,
+                14,
+                17,
+                29,
+                30
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 5,
+        "fields": {
+            "name": "sprzatacz",
+            "permissions": [
+                7,
+                9,
+                10,
+                17,
+                18,
+                20,
+                25,
+                26,
+                29
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 6,
+        "fields": {
+            "name": "stazysta",
+            "permissions": [
+                3,
+                7,
+                9,
+                10,
+                18,
+                22,
+                26
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 7,
+        "fields": {
+            "name": "szef",
+            "permissions": [
+                1,
+                2,
+                5,
+                8,
+                11,
+                12,
+                13,
+                14,
+                17,
+                21,
+                29,
+                30
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 8,
+        "fields": {
+            "name": "hr",
+            "permissions": [
+                3,
+                12,
+                16,
+                17,
+                19,
+                29,
+                30
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 9,
+        "fields": {
+            "name": "administrator",
+            "permissions": [
+                1,
+                2,
+                3,
+                4,
+                15,
+                17,
+                23,
+                24,
+                27,
+                28,
+                29,
+                30
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 10,
+        "fields": {
+            "name": "kierowca",
+            "permissions": [
+                5,
+                6,
+                7,
+                17,
+                18,
+                22,
+                26,
+                29
+            ]
+        }
+    },
+    {
+        "model": "app.position",
+        "pk": 11,
+        "fields": {
+            "name": "zwolniony",
+            "permissions": [
+            ]
+        }
+    },
+    {
+        "model": "app.substitutionreason",
+        "pk": 1,
+        "fields": {
+            "desc": "choroba"
+        }
+    },
+    {
+        "model": "app.substitutionreason",
+        "pk": 2,
+        "fields": {
+            "desc": "urlop opieku\u0144czy"
+        }
+    },
+    {
+        "model": "app.substitutionreason",
+        "pk": 3,
+        "fields": {
+            "desc": "na \u017c\u0105danie"
+        }
+    },
+    {
+        "model": "app.substitutionreason",
+        "pk": 4,
+        "fields": {
+            "desc": "oddawanko krewki"
+        }
+    },
+    {
+        "model": "app.substitutionreason",
+        "pk": 5,
+        "fields": {
+            "desc": "podroz sluzbowa"
+        }
+    },
+    {
+        "model": "app.permissionchangereason",
+        "pk": 1,
+        "fields": {
+            "desc": "awans"
+        }
+    },
+    {
+        "model": "app.permissionchangereason",
+        "pk": 2,
+        "fields": {
+            "desc": "zastepstwo"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+          "password": "pbkdf2_sha256$150000$5hDbMmTu1T2P$oDLaNOMZM68dXnHyCTAWaSQda7iMaTgRv2tUYQJ6rsM=",
+          "last_login": "2019-05-17T11:28:12.061Z",
+          "is_superuser": true,
+          "username": "admin",
+          "first_name": "",
+          "last_name": "",
+          "email": "ad@ad.ad",
+          "is_staff": true,
+          "is_active": true,
+          "date_joined": "2019-05-17T11:26:51.563Z",
+          "groups": [],
+          "user_permissions": []
+        }
+      },
+      {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+          "password": "pbkdf2_sha256$150000$kzQZFVuhNcIU$+3EbFSddIrK6X6GdLqwo85z2auUmPcO73bFggC27ygU=",
+          "last_login": null,
+          "is_superuser": false,
+          "username": "user1",
+          "first_name": "",
+          "last_name": "",
+          "email": "",
+          "is_staff": false,
+          "is_active": true,
+          "date_joined": "2019-05-17T11:29:42.236Z",
+          "groups": [],
+          "user_permissions": []
+        }
+      },
+      {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+          "password": "pbkdf2_sha256$150000$TJ3DjUsM1sWT$+8kkhcuEkt47QoRlXl8NpZ4ZfFD+vmttFs9V7CpSW4U=",
+          "last_login": null,
+          "is_superuser": false,
+          "username": "user2",
+          "first_name": "",
+          "last_name": "",
+          "email": "",
+          "is_staff": false,
+          "is_active": true,
+          "date_joined": "2019-05-17T11:29:51.469Z",
+          "groups": [],
+          "user_permissions": []
+        }
+      },
+      {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+          "password": "pbkdf2_sha256$150000$KemkhYBJUvTV$DhILpSpGfybb4mdAWq8Hbu+TiKh/G/RGT6dl7vap55s=",
+          "last_login": null,
+          "is_superuser": false,
+          "username": "user3",
+          "first_name": "",
+          "last_name": "",
+          "email": "",
+          "is_staff": false,
+          "is_active": true,
+          "date_joined": "2019-05-17T11:30:00.970Z",
+          "groups": [],
+          "user_permissions": []
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 1,
+        "fields": {
+            "supervisor": 2,
+            "name": "Juliusz",
+            "surname": "Piasta",
+			"pesel": "53112461616",
+            "salary": 7200,
+            "position": 5,
+            "employment_date": "2017-09-18",
+			"promotion_date": "2017-09-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 2,
+        "fields": {
+            "supervisor": 3,
+            "name": "Zofia",
+            "surname": "Balon",
+			"pesel": "61083036414",
+            "salary": 15700,
+            "position": 3,
+            "employment_date": "2015-05-16",
+			"promotion_date": "2015-05-16"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 3,
+        "fields": {
+            "supervisor": 3,
+            "name": "Randoald",
+            "surname": "Sidorowicz",
+			"pesel": "79061388141",
+            "salary": 18100,
+            "position": 2,
+            "employment_date": "2018-04-08",
+			"promotion_date": "2018-04-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 4,
+        "fields": {
+            "supervisor": 1,
+            "name": "Sarita",
+            "surname": "W\u0119glewski",
+			"pesel": "53063019827",
+            "salary": 5400,
+            "position": 3,
+            "employment_date": "2015-05-23",
+			"promotion_date": "2015-05-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 5,
+        "fields": {
+            "supervisor": 1,
+            "name": "Dagmara",
+            "surname": "Modrzejewski",
+			"pesel": "98012456678",
+            "salary": 9500,
+            "position": 8,
+            "employment_date": "2018-11-04",
+			"promotion_date": "2018-11-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 6,
+        "fields": {
+            "supervisor": 1,
+            "name": "Placyda",
+            "surname": "Sielicki",
+			"pesel": "53080891664",
+            "salary": 14500,
+            "position": 4,
+            "employment_date": "2018-08-11",
+			"promotion_date": "2018-08-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 7,
+        "fields": {
+            "supervisor": 1,
+            "name": "Miriam",
+            "surname": "\u015awierczewski",
+			"pesel": "61083036414",
+            "salary": 20000,
+            "position": 3,
+            "employment_date": "2018-09-27",
+			"promotion_date": "2018-09-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 8,
+        "fields": {
+            "supervisor": 1,
+            "name": "Alisa",
+            "surname": "Bronowicki",
+			"pesel": "75042767523",
+            "salary": 17500,
+            "position": 9,
+            "employment_date": "2018-07-01",
+			"promotion_date": "2018-07-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 9,
+        "fields": {
+            "supervisor": 3,
+            "name": "Fortunat",
+            "surname": "Badowski",
+			"pesel": "84110453628",
+            "salary": 11400,
+            "position": 3,
+            "employment_date": "2016-12-29",
+			"promotion_date": "2016-12-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 10,
+        "fields": {
+            "supervisor": 2,
+            "name": "Huberta",
+            "surname": "Stelmach",
+			"pesel": "76012395274",
+            "salary": 13500,
+            "position": 1,
+            "employment_date": "2015-04-12",
+			"promotion_date": "2015-04-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 11,
+        "fields": {
+            "supervisor": 2,
+            "name": "Norman",
+            "surname": "Radzik",
+			"pesel": "80050211135",
+            "salary": 17100,
+            "position": 3,
+            "employment_date": "2017-11-07",
+			"promotion_date": "2017-11-07"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 12,
+        "fields": {
+            "supervisor": 4,
+            "name": "Wirginia",
+            "surname": "\u0141ukaszuk",
+			"pesel": "61083036414",
+            "salary": 7200,
+            "position": 6,
+            "employment_date": "2018-12-25",
+			"promotion_date": "2018-12-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 13,
+        "fields": {
+            "supervisor": 4,
+            "name": "Ludwik]",
+            "surname": "Gorzkiewicz",
+			"pesel": "61083036414",
+            "salary": 10500,
+            "position": 3,
+            "employment_date": "2018-04-08",
+			"promotion_date": "2018-04-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 14,
+        "fields": {
+            "supervisor": 2,
+            "name": "Ryszarda",
+            "surname": "\u015aliwka",
+			"pesel": "61083036414",
+            "salary": 19600,
+            "position": 6,
+            "employment_date": "2017-06-04",
+			"promotion_date": "2017-06-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 15,
+        "fields": {
+            "supervisor": 3,
+            "name": "Stois\u0142aw",
+            "surname": "Bartoszek",
+			"pesel": "61083036414",
+            "salary": 16900,
+            "position": 5,
+            "employment_date": "2016-04-06",
+			"promotion_date": "2016-04-06"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 16,
+        "fields": {
+            "supervisor": 2,
+            "name": "Bogumir",
+            "surname": "Dyba\u0142a",
+			"pesel": "61083036414",
+            "salary": 8000,
+            "position": 4,
+            "employment_date": "2016-06-14",
+			"promotion_date": "2016-06-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 17,
+        "fields": {
+            "supervisor": 3,
+            "name": "Bojana",
+            "surname": "Miksa",
+			"pesel": "61083036414",
+            "salary": 4300,
+            "position": 3,
+            "employment_date": "2015-09-12",
+			"promotion_date": "2015-09-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 18,
+        "fields": {
+            "supervisor": 1,
+            "name": "Radomir",
+            "surname": "D\u0119bek",
+			"pesel": "61083036414",
+            "salary": 15600,
+            "position": 9,
+            "employment_date": "2016-10-13",
+			"promotion_date": "2016-10-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 19,
+        "fields": {
+            "supervisor": 2,
+            "name": "Nika",
+            "surname": "Litwin",
+			"pesel": "61083036414",
+            "salary": 6600,
+            "position": 8,
+            "employment_date": "2016-09-13",
+			"promotion_date": "2016-09-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 20,
+        "fields": {
+            "supervisor": 3,
+            "name": "Kornelia",
+            "surname": "Fija\u0142",
+			"pesel": "61083036414",
+            "salary": 9300,
+            "position": 5,
+            "employment_date": "2018-07-10",
+			"promotion_date": "2018-07-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 21,
+        "fields": {
+            "supervisor": 2,
+            "name": "Chwalis\u0142aw",
+            "surname": "Karczewski",
+			"pesel": "61083036414",
+            "salary": 17200,
+            "position": 5,
+            "employment_date": "2018-08-03",
+			"promotion_date": "2018-08-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 22,
+        "fields": {
+            "supervisor": 4,
+            "name": "Andrea",
+            "surname": "Zaj\u0105c",
+			"pesel": "61083036414",
+            "salary": 12200,
+            "position": 6,
+            "employment_date": "2018-02-14",
+			"promotion_date": "2018-02-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 23,
+        "fields": {
+            "supervisor": 4,
+            "name": "Leona",
+            "surname": "Lubczy\u0144ski",
+			"pesel": "61083036414",
+            "salary": 9200,
+            "position": 3,
+            "employment_date": "2018-09-21",
+			"promotion_date": "2018-09-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 24,
+        "fields": {
+            "supervisor": 2,
+            "name": "Blanka",
+            "surname": "Pru\u015b",
+			"pesel": "61083036414",
+            "salary": 10000,
+            "position": 5,
+            "employment_date": "2017-12-07",
+			"promotion_date": "2017-12-07"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 25,
+        "fields": {
+            "supervisor": 3,
+            "name": "Franciszek",
+            "surname": "Kaczmarzyk",
+			"pesel": "61083036414",
+            "salary": 15000,
+            "position": 10,
+            "employment_date": "2016-02-15",
+			"promotion_date": "2016-02-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 26,
+        "fields": {
+            "supervisor": 3,
+            "name": "Onufry",
+            "surname": "Ha\u0142as",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 4,
+            "employment_date": "2016-08-27",
+			"promotion_date": "2016-08-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 27,
+        "fields": {
+            "supervisor": 1,
+            "name": "Romualda",
+            "surname": "Stelmaszyk",
+			"pesel": "61083036414",
+            "salary": 19600,
+            "position": 8,
+            "employment_date": "2017-11-13",
+			"promotion_date": "2017-11-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 28,
+        "fields": {
+            "supervisor": 3,
+            "name": "\u015awi\u0119tibor",
+            "surname": "Sopel",
+			"pesel": "61083036414",
+            "salary": 5700,
+            "position": 5,
+            "employment_date": "2017-07-29",
+			"promotion_date": "2017-07-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 29,
+        "fields": {
+            "supervisor": 4,
+            "name": "Dzwonimierz",
+            "surname": "Tarczy\u0144ski",
+			"pesel": "61083036414",
+            "salary": 2700,
+            "position": 10,
+            "employment_date": "2018-01-18",
+			"promotion_date": "2018-01-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 30,
+        "fields": {
+            "supervisor": 3,
+            "name": "Emil",
+            "surname": "Marsza\u0142kowski",
+			"pesel": "61083036414",
+            "salary": 14700,
+            "position": 1,
+            "employment_date": "2016-06-06",
+			"promotion_date": "2016-06-06"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 31,
+        "fields": {
+            "supervisor": 2,
+            "name": "Tristan",
+            "surname": "Tur",
+			"pesel": "61083036414",
+            "salary": 3200,
+            "position": 1,
+            "employment_date": "2016-02-05",
+			"promotion_date": "2016-02-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 32,
+        "fields": {
+            "supervisor": 1,
+            "name": "Syriusz",
+            "surname": "Bielewicz",
+			"pesel": "61083036414",
+            "salary": 5300,
+            "position": 4,
+            "employment_date": "2018-03-15",
+			"promotion_date": "2018-03-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 33,
+        "fields": {
+            "supervisor": 4,
+            "name": "Rudolf",
+            "surname": "Kasprzycki",
+			"pesel": "61083036414",
+            "salary": 2300,
+            "position": 4,
+            "employment_date": "2018-03-20",
+			"promotion_date": "2018-03-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 34,
+        "fields": {
+            "supervisor": 3,
+            "name": "Lucyna",
+            "surname": "Buczkowski",
+			"pesel": "61083036414",
+            "salary": 12300,
+            "position": 8,
+            "employment_date": "2018-01-04",
+			"promotion_date": "2018-01-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 35,
+        "fields": {
+            "supervisor": 2,
+            "name": "Hanna",
+            "surname": "Gawor",
+			"pesel": "61083036414",
+            "salary": 19500,
+            "position": 3,
+            "employment_date": "2018-01-04",
+			"promotion_date": "2018-01-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 36,
+        "fields": {
+            "supervisor": 4,
+            "name": "And\u017celika",
+            "surname": "Przychodze\u0144",
+			"pesel": "61083036414",
+            "salary": 16900,
+            "position": 10,
+            "employment_date": "2018-05-02",
+			"promotion_date": "2018-05-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 37,
+        "fields": {
+            "supervisor": 1,
+            "name": "Mi\u0142omir",
+            "surname": "Nicpo\u0144",
+			"pesel": "61083036414",
+            "salary": 3500,
+            "position": 7,
+            "employment_date": "2018-07-20",
+			"promotion_date": "2018-07-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 38,
+        "fields": {
+            "supervisor": 2,
+            "name": "Nataniel",
+            "surname": "Duli\u0144ski",
+			"pesel": "61083036414",
+            "salary": 11100,
+            "position": 5,
+            "employment_date": "2016-11-23",
+			"promotion_date": "2016-11-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 39,
+        "fields": {
+            "supervisor": 1,
+            "name": "Wiktoria",
+            "surname": "Jokiel",
+			"pesel": "61083036414",
+            "salary": 13900,
+            "position": 10,
+            "employment_date": "2018-08-05",
+			"promotion_date": "2018-08-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 40,
+        "fields": {
+            "supervisor": 2,
+            "name": "Bogdana",
+            "surname": "Pomorski",
+			"pesel": "61083036414",
+            "salary": 10400,
+            "position": 7,
+            "employment_date": "2018-06-10",
+			"promotion_date": "2018-06-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 41,
+        "fields": {
+            "supervisor": 2,
+            "name": "Otokar",
+            "surname": "Kowalczuk",
+			"pesel": "61083036414",
+            "salary": 11700,
+            "position": 6,
+            "employment_date": "2015-12-30",
+			"promotion_date": "2015-12-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 42,
+        "fields": {
+            "supervisor": 4,
+            "name": "Linda",
+            "surname": "Oleszczuk",
+			"pesel": "61083036414",
+            "salary": 13300,
+            "position": 6,
+            "employment_date": "2016-08-17",
+			"promotion_date": "2016-08-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 43,
+        "fields": {
+            "supervisor": 2,
+            "name": "Adrianna",
+            "surname": "Che\u0142stowski",
+			"pesel": "61083036414",
+            "salary": 2900,
+            "position": 2,
+            "employment_date": "2015-07-21",
+			"promotion_date": "2015-07-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 44,
+        "fields": {
+            "supervisor": 2,
+            "name": "Lara",
+            "surname": "Sabat",
+			"pesel": "61083036414",
+            "salary": 7200,
+            "position": 9,
+            "employment_date": "2017-06-26",
+			"promotion_date": "2017-06-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 45,
+        "fields": {
+            "supervisor": 2,
+            "name": "M\u015bciwoj",
+            "surname": "Koczorowski",
+			"pesel": "61083036414",
+            "salary": 14200,
+            "position": 10,
+            "employment_date": "2016-08-15",
+			"promotion_date": "2016-08-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 46,
+        "fields": {
+            "supervisor": 3,
+            "name": "Pabiana",
+            "surname": "Ra\u015b",
+			"pesel": "61083036414",
+            "salary": 1900,
+            "position": 9,
+            "employment_date": "2017-07-11",
+			"promotion_date": "2017-07-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 47,
+        "fields": {
+            "supervisor": 1,
+            "name": "Kamira",
+            "surname": "Grabek",
+			"pesel": "61083036414",
+            "salary": 12600,
+            "position": 2,
+            "employment_date": "2018-05-13",
+			"promotion_date": "2018-05-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 48,
+        "fields": {
+            "supervisor": 1,
+            "name": "Milomira",
+            "surname": "Wolski",
+			"pesel": "61083036414",
+            "salary": 7100,
+            "position": 5,
+            "employment_date": "2018-11-01",
+			"promotion_date": "2018-11-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 49,
+        "fields": {
+            "supervisor": 1,
+            "name": "W\u0142adys\u0142awa",
+            "surname": "Dudzik",
+			"pesel": "61083036414",
+            "salary": 4300,
+            "position": 10,
+            "employment_date": "2017-04-11",
+			"promotion_date": "2017-04-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 50,
+        "fields": {
+            "supervisor": 3,
+            "name": "Ernestyna",
+            "surname": "Kosakowski",
+			"pesel": "61083036414",
+            "salary": 5600,
+            "position": 3,
+            "employment_date": "2017-10-09",
+			"promotion_date": "2017-10-09"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 51,
+        "fields": {
+            "supervisor": 1,
+            "name": "Hugo",
+            "surname": "Cie\u015blak",
+			"pesel": "61083036414",
+            "salary": 11900,
+            "position": 7,
+            "employment_date": "2018-11-04",
+			"promotion_date": "2018-11-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 52,
+        "fields": {
+            "supervisor": 3,
+            "name": "Domas\u0142aw",
+            "surname": "Gody\u0144",
+			"pesel": "61083036414",
+            "salary": 10100,
+            "position": 1,
+            "employment_date": "2016-04-21",
+			"promotion_date": "2016-04-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 53,
+        "fields": {
+            "supervisor": 2,
+            "name": "Gawe\u0142",
+            "surname": "Wojdat",
+			"pesel": "61083036414",
+            "salary": 4800,
+            "position": 5,
+            "employment_date": "2017-11-24",
+			"promotion_date": "2017-11-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 54,
+        "fields": {
+            "supervisor": 1,
+            "name": "Leo",
+            "surname": "G\u0142owala",
+			"pesel": "61083036414",
+            "salary": 17100,
+            "position": 4,
+            "employment_date": "2018-03-18",
+			"promotion_date": "2018-03-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 55,
+        "fields": {
+            "supervisor": 4,
+            "name": "Patrycjusz",
+            "surname": "Abramowski",
+			"pesel": "61083036414",
+            "salary": 12400,
+            "position": 4,
+            "employment_date": "2016-10-08",
+			"promotion_date": "2016-10-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 56,
+        "fields": {
+            "supervisor": 2,
+            "name": "Kwietos\u0142aw",
+            "surname": "Pokora",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 3,
+            "employment_date": "2016-03-22",
+			"promotion_date": "2016-03-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 57,
+        "fields": {
+            "supervisor": 3,
+            "name": "Feliks",
+            "surname": "Moska\u0142a",
+			"pesel": "61083036414",
+            "salary": 17900,
+            "position": 3,
+            "employment_date": "2015-01-28",
+			"promotion_date": "2015-01-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 58,
+        "fields": {
+            "supervisor": 2,
+            "name": "Ryta",
+            "surname": "Paprota",
+			"pesel": "61083036414",
+            "salary": 11800,
+            "position": 9,
+            "employment_date": "2017-04-11",
+			"promotion_date": "2017-04-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 59,
+        "fields": {
+            "supervisor": 2,
+            "name": "Beata",
+            "surname": "Rybakowski",
+			"pesel": "61083036414",
+            "salary": 17600,
+            "position": 5,
+            "employment_date": "2018-06-16",
+			"promotion_date": "2018-06-16"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 60,
+        "fields": {
+            "supervisor": 3,
+            "name": "Wilhelm",
+            "surname": "Telega",
+			"pesel": "61083036414",
+            "salary": 7700,
+            "position": 1,
+            "employment_date": "2016-01-14",
+			"promotion_date": "2016-01-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 61,
+        "fields": {
+            "supervisor": 1,
+            "name": "Kinga",
+            "surname": "Kurasz",
+			"pesel": "61083036414",
+            "salary": 10700,
+            "position": 1,
+            "employment_date": "2016-01-10",
+			"promotion_date": "2016-01-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 62,
+        "fields": {
+            "supervisor": 3,
+            "name": "Alfons",
+            "surname": "Myszka",
+			"pesel": "61083036414",
+            "salary": 7300,
+            "position": 6,
+            "employment_date": "2015-11-08",
+			"promotion_date": "2015-11-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 63,
+        "fields": {
+            "supervisor": 2,
+            "name": "Celestyna",
+            "surname": "Zi\u00f3\u0142kowski",
+			"pesel": "61083036414",
+            "salary": 18200,
+            "position": 1,
+            "employment_date": "2018-07-15",
+			"promotion_date": "2018-07-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 64,
+        "fields": {
+            "supervisor": 3,
+            "name": "Matylda",
+            "surname": "Kluz",
+			"pesel": "61083036414",
+            "salary": 12900,
+            "position": 2,
+            "employment_date": "2017-11-15",
+			"promotion_date": "2017-11-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 65,
+        "fields": {
+            "supervisor": 1,
+            "name": "Metody",
+            "surname": "Drewnowski",
+			"pesel": "61083036414",
+            "salary": 2900,
+            "position": 5,
+            "employment_date": "2017-04-10",
+			"promotion_date": "2017-04-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 66,
+        "fields": {
+            "supervisor": 1,
+            "name": "Klaudia",
+            "surname": "Niezgoda",
+			"pesel": "61083036414",
+            "salary": 4000,
+            "position": 4,
+            "employment_date": "2018-11-17",
+			"promotion_date": "2018-11-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 67,
+        "fields": {
+            "supervisor": 3,
+            "name": "Lora",
+            "surname": "Rydzewski",
+			"pesel": "61083036414",
+            "salary": 14500,
+            "position": 7,
+            "employment_date": "2017-03-08",
+			"promotion_date": "2017-03-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 68,
+        "fields": {
+            "supervisor": 3,
+            "name": "Kazimiera",
+            "surname": "Natkaniec",
+			"pesel": "61083036414",
+            "salary": 13600,
+            "position": 3,
+            "employment_date": "2018-07-27",
+			"promotion_date": "2018-07-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 69,
+        "fields": {
+            "supervisor": 1,
+            "name": "Samantra",
+            "surname": "Sieczka",
+			"pesel": "61083036414",
+            "salary": 17500,
+            "position": 7,
+            "employment_date": "2016-01-21",
+			"promotion_date": "2016-01-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 70,
+        "fields": {
+            "supervisor": 2,
+            "name": "Herakles",
+            "surname": "Szcz\u0119sny",
+			"pesel": "61083036414",
+            "salary": 14000,
+            "position": 5,
+            "employment_date": "2015-01-10",
+			"promotion_date": "2015-01-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 71,
+        "fields": {
+            "supervisor": 4,
+            "name": "Adamina",
+            "surname": "Wrzesi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 15500,
+            "position": 5,
+            "employment_date": "2018-04-23",
+			"promotion_date": "2018-04-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 72,
+        "fields": {
+            "supervisor": 3,
+            "name": "Samson",
+            "surname": "P\u0142achta",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 6,
+            "employment_date": "2016-06-19",
+			"promotion_date": "2016-06-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 73,
+        "fields": {
+            "supervisor": 4,
+            "name": "Mirela",
+            "surname": "Karolczyk",
+			"pesel": "61083036414",
+            "salary": 16000,
+            "position": 10,
+            "employment_date": "2018-10-18",
+			"promotion_date": "2018-10-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 74,
+        "fields": {
+            "supervisor": 3,
+            "name": "Fabiola",
+            "surname": "Bernat",
+			"pesel": "61083036414",
+            "salary": 9500,
+            "position": 2,
+            "employment_date": "2018-04-24",
+			"promotion_date": "2018-04-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 75,
+        "fields": {
+            "supervisor": 1,
+            "name": "Iliana",
+            "surname": "Mateusiak",
+			"pesel": "61083036414",
+            "salary": 8800,
+            "position": 4,
+            "employment_date": "2017-11-27",
+			"promotion_date": "2017-11-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 76,
+        "fields": {
+            "supervisor": 2,
+            "name": "Dajmir",
+            "surname": "Wawrzak",
+			"pesel": "61083036414",
+            "salary": 6700,
+            "position": 8,
+            "employment_date": "2018-12-13",
+			"promotion_date": "2018-12-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 77,
+        "fields": {
+            "supervisor": 4,
+            "name": "Cezary",
+            "surname": "Wolniak",
+			"pesel": "61083036414",
+            "salary": 13000,
+            "position": 1,
+            "employment_date": "2015-04-28",
+			"promotion_date": "2015-04-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 78,
+        "fields": {
+            "supervisor": 1,
+            "name": "Bronis\u0142aw",
+            "surname": "Iskra",
+			"pesel": "61083036414",
+            "salary": 3600,
+            "position": 4,
+            "employment_date": "2016-04-19",
+			"promotion_date": "2016-04-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 79,
+        "fields": {
+            "supervisor": 1,
+            "name": "Hadrian",
+            "surname": "Bogucki",
+			"pesel": "61083036414",
+            "salary": 5600,
+            "position": 1,
+            "employment_date": "2017-12-21",
+			"promotion_date": "2017-12-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 80,
+        "fields": {
+            "supervisor": 1,
+            "name": "Rufus",
+            "surname": "Rozbicki",
+			"pesel": "61083036414",
+            "salary": 18000,
+            "position": 2,
+            "employment_date": "2018-08-03",
+			"promotion_date": "2018-08-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 81,
+        "fields": {
+            "supervisor": 4,
+            "name": "\u015awi\u0119tomira",
+            "surname": "Fronczak",
+			"pesel": "61083036414",
+            "salary": 17300,
+            "position": 8,
+            "employment_date": "2018-06-20",
+			"promotion_date": "2018-06-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 82,
+        "fields": {
+            "supervisor": 2,
+            "name": "Delia",
+            "surname": "Liszka",
+			"pesel": "61083036414",
+            "salary": 3500,
+            "position": 2,
+            "employment_date": "2018-12-15",
+			"promotion_date": "2018-12-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 83,
+        "fields": {
+            "supervisor": 1,
+            "name": "Medard",
+            "surname": "Prusaczyk",
+			"pesel": "61083036414",
+            "salary": 11000,
+            "position": 2,
+            "employment_date": "2015-11-29",
+			"promotion_date": "2015-11-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 84,
+        "fields": {
+            "supervisor": 1,
+            "name": "Donata",
+            "surname": "Ciach",
+			"pesel": "61083036414",
+            "salary": 12200,
+            "position": 5,
+            "employment_date": "2017-10-13",
+			"promotion_date": "2017-10-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 85,
+        "fields": {
+            "supervisor": 2,
+            "name": "Krystian",
+            "surname": "Kasprowicz",
+			"pesel": "61083036414",
+            "salary": 10200,
+            "position": 2,
+            "employment_date": "2017-09-20",
+			"promotion_date": "2017-09-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 86,
+        "fields": {
+            "supervisor": 2,
+            "name": "Ariel",
+            "surname": "Derda",
+			"pesel": "61083036414",
+            "salary": 18100,
+            "position": 4,
+            "employment_date": "2017-02-26",
+			"promotion_date": "2017-02-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 87,
+        "fields": {
+            "supervisor": 1,
+            "name": "Jonatan",
+            "surname": "Waliszewski",
+			"pesel": "61083036414",
+            "salary": 16500,
+            "position": 8,
+            "employment_date": "2015-07-11",
+			"promotion_date": "2015-07-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 88,
+        "fields": {
+            "supervisor": 3,
+            "name": "Emilia",
+            "surname": "Obara",
+			"pesel": "61083036414",
+            "salary": 19000,
+            "position": 2,
+            "employment_date": "2015-08-31",
+			"promotion_date": "2015-08-31"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 89,
+        "fields": {
+            "supervisor": 4,
+            "name": "Samir",
+            "surname": "Stefanowski",
+			"pesel": "61083036414",
+            "salary": 2900,
+            "position": 3,
+            "employment_date": "2015-11-22",
+			"promotion_date": "2015-11-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 90,
+        "fields": {
+            "supervisor": 2,
+            "name": "Oswald",
+            "surname": "Puchacz",
+			"pesel": "61083036414",
+            "salary": 15100,
+            "position": 5,
+            "employment_date": "2015-04-25",
+			"promotion_date": "2015-04-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 91,
+        "fields": {
+            "supervisor": 4,
+            "name": "Herma",
+            "surname": "Kos",
+			"pesel": "61083036414",
+            "salary": 11800,
+            "position": 4,
+            "employment_date": "2016-05-04",
+			"promotion_date": "2016-05-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 92,
+        "fields": {
+            "supervisor": 4,
+            "name": "Izolda",
+            "surname": "Ma\u0142achowski",
+			"pesel": "61083036414",
+            "salary": 8900,
+            "position": 6,
+            "employment_date": "2018-10-11",
+			"promotion_date": "2018-10-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 93,
+        "fields": {
+            "supervisor": 2,
+            "name": "Albina",
+            "surname": "P\u0142aczek",
+			"pesel": "61083036414",
+            "salary": 5800,
+            "position": 10,
+            "employment_date": "2017-08-19",
+			"promotion_date": "2017-08-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 94,
+        "fields": {
+            "supervisor": 1,
+            "name": "Dionizy",
+            "surname": "Nazaruk",
+			"pesel": "61083036414",
+            "salary": 7100,
+            "position": 5,
+            "employment_date": "2017-07-02",
+			"promotion_date": "2017-07-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 95,
+        "fields": {
+            "supervisor": 2,
+            "name": "Famian",
+            "surname": "Antoszewski",
+			"pesel": "61083036414",
+            "salary": 7200,
+            "position": 7,
+            "employment_date": "2018-11-01",
+			"promotion_date": "2018-11-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 96,
+        "fields": {
+            "supervisor": 4,
+            "name": "Olgierd",
+            "surname": "Dr\u0105g",
+			"pesel": "61083036414",
+            "salary": 13400,
+            "position": 3,
+            "employment_date": "2017-11-11",
+			"promotion_date": "2017-11-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 97,
+        "fields": {
+            "supervisor": 1,
+            "name": "Stanis\u0142awa",
+            "surname": "Grocholski",
+			"pesel": "61083036414",
+            "salary": 14800,
+            "position": 10,
+            "employment_date": "2016-05-05",
+			"promotion_date": "2016-05-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 98,
+        "fields": {
+            "supervisor": 1,
+            "name": "Seweryn",
+            "surname": "Bojar",
+			"pesel": "61083036414",
+            "salary": 13900,
+            "position": 8,
+            "employment_date": "2017-08-02",
+			"promotion_date": "2017-08-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 99,
+        "fields": {
+            "supervisor": 3,
+            "name": "Jur",
+            "surname": "Hajduk",
+			"pesel": "61083036414",
+            "salary": 18100,
+            "position": 5,
+            "employment_date": "2017-11-21",
+			"promotion_date": "2017-11-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 100,
+        "fields": {
+            "supervisor": 2,
+            "name": "Salma",
+            "surname": "Cie\u015bluk",
+			"pesel": "61083036414",
+            "salary": 11100,
+            "position": 1,
+            "employment_date": "2015-01-30",
+			"promotion_date": "2015-01-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 101,
+        "fields": {
+            "supervisor": 1,
+            "name": "Donat",
+            "surname": "Chojnacki",
+			"pesel": "61083036414",
+            "salary": 19000,
+            "position": 7,
+            "employment_date": "2016-03-24",
+			"promotion_date": "2016-03-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 102,
+        "fields": {
+            "supervisor": 2,
+            "name": "Bernarda",
+            "surname": "M\u0119drek",
+			"pesel": "61083036414",
+            "salary": 17000,
+            "position": 8,
+            "employment_date": "2017-02-03",
+			"promotion_date": "2017-02-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 103,
+        "fields": {
+            "supervisor": 2,
+            "name": "Patrycja",
+            "surname": "\u0141obodzi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 3100,
+            "position": 10,
+            "employment_date": "2015-12-19",
+			"promotion_date": "2015-12-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 104,
+        "fields": {
+            "supervisor": 2,
+            "name": "Fabiana",
+            "surname": "Ksi\u0105\u017cek",
+			"pesel": "61083036414",
+            "salary": 16700,
+            "position": 1,
+            "employment_date": "2017-11-26",
+			"promotion_date": "2017-11-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 105,
+        "fields": {
+            "supervisor": 2,
+            "name": "B\u0142a\u017cena",
+            "surname": "Blacha",
+			"pesel": "61083036414",
+            "salary": 5800,
+            "position": 2,
+            "employment_date": "2016-11-20",
+			"promotion_date": "2016-11-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 106,
+        "fields": {
+            "supervisor": 4,
+            "name": "\u017belis\u0142awa",
+            "surname": "Gralewski",
+			"pesel": "61083036414",
+            "salary": 6800,
+            "position": 7,
+            "employment_date": "2016-06-08",
+			"promotion_date": "2016-06-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 107,
+        "fields": {
+            "supervisor": 1,
+            "name": "Ludolf",
+            "surname": "Momot",
+			"pesel": "61083036414",
+            "salary": 2700,
+            "position": 9,
+            "employment_date": "2018-10-13",
+			"promotion_date": "2018-10-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 108,
+        "fields": {
+            "supervisor": 4,
+            "name": "Teodor",
+            "surname": "Imio\u0142ek",
+			"pesel": "61083036414",
+            "salary": 7300,
+            "position": 2,
+            "employment_date": "2016-04-18",
+			"promotion_date": "2016-04-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 109,
+        "fields": {
+            "supervisor": 4,
+            "name": "Tadeusz",
+            "surname": "Stawowy",
+			"pesel": "61083036414",
+            "salary": 2900,
+            "position": 1,
+            "employment_date": "2016-01-22",
+			"promotion_date": "2016-01-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 110,
+        "fields": {
+            "supervisor": 2,
+            "name": "Kunegunda",
+            "surname": "Tomasik",
+			"pesel": "61083036414",
+            "salary": 20000,
+            "position": 7,
+            "employment_date": "2018-08-16",
+			"promotion_date": "2018-08-16"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 111,
+        "fields": {
+            "supervisor": 2,
+            "name": "Jona",
+            "surname": "Matuszkiewicz",
+			"pesel": "61083036414",
+            "salary": 12100,
+            "position": 5,
+            "employment_date": "2015-05-28",
+			"promotion_date": "2015-05-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 112,
+        "fields": {
+            "supervisor": 4,
+            "name": "Antonina",
+            "surname": "Nied\u017awiecki",
+			"pesel": "61083036414",
+            "salary": 13400,
+            "position": 9,
+            "employment_date": "2016-02-07",
+			"promotion_date": "2016-02-07"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 113,
+        "fields": {
+            "supervisor": 1,
+            "name": "Bronis\u0142awa",
+            "surname": "Warzecha",
+			"pesel": "61083036414",
+            "salary": 15300,
+            "position": 8,
+            "employment_date": "2018-06-12",
+			"promotion_date": "2018-06-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 114,
+        "fields": {
+            "supervisor": 4,
+            "name": "Adelajda",
+            "surname": "Ku\u0107",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 1,
+            "employment_date": "2015-08-02",
+			"promotion_date": "2015-08-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 115,
+        "fields": {
+            "supervisor": 1,
+            "name": "Klotylda",
+            "surname": "Ryczkowski",
+			"pesel": "61083036414",
+            "salary": 3900,
+            "position": 2,
+            "employment_date": "2018-11-19",
+			"promotion_date": "2018-11-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 116,
+        "fields": {
+            "supervisor": 2,
+            "name": "S\u0142awa",
+            "surname": "Olszewski",
+			"pesel": "61083036414",
+            "salary": 9800,
+            "position": 3,
+            "employment_date": "2016-02-08",
+			"promotion_date": "2016-02-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 117,
+        "fields": {
+            "supervisor": 1,
+            "name": "Mina",
+            "surname": "Wojciechowicz",
+			"pesel": "61083036414",
+            "salary": 14500,
+            "position": 6,
+            "employment_date": "2015-07-20",
+			"promotion_date": "2015-07-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 118,
+        "fields": {
+            "supervisor": 1,
+            "name": "Patryk",
+            "surname": "Mioduszewski",
+			"pesel": "61083036414",
+            "salary": 6100,
+            "position": 6,
+            "employment_date": "2018-04-29",
+			"promotion_date": "2018-04-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 119,
+        "fields": {
+            "supervisor": 2,
+            "name": "Leonora",
+            "surname": "Kopiec",
+			"pesel": "61083036414",
+            "salary": 17000,
+            "position": 2,
+            "employment_date": "2017-07-06",
+			"promotion_date": "2017-07-06"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 120,
+        "fields": {
+            "supervisor": 4,
+            "name": "Dyter",
+            "surname": "Staszczyk",
+			"pesel": "61083036414",
+            "salary": 12500,
+            "position": 3,
+            "employment_date": "2015-04-18",
+			"promotion_date": "2015-04-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 121,
+        "fields": {
+            "supervisor": 3,
+            "name": "Bogus\u0142awa",
+            "surname": "Janiczek",
+			"pesel": "61083036414",
+            "salary": 11400,
+            "position": 1,
+            "employment_date": "2016-09-23",
+			"promotion_date": "2016-09-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 122,
+        "fields": {
+            "supervisor": 2,
+            "name": "S\u0142awek",
+            "surname": "Eliasz",
+			"pesel": "61083036414",
+            "salary": 12600,
+            "position": 4,
+            "employment_date": "2016-04-15",
+			"promotion_date": "2016-04-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 123,
+        "fields": {
+            "supervisor": 3,
+            "name": "Godfryg",
+            "surname": "Piontek",
+			"pesel": "61083036414",
+            "salary": 17000,
+            "position": 7,
+            "employment_date": "2017-07-26",
+			"promotion_date": "2017-07-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 124,
+        "fields": {
+            "supervisor": 4,
+            "name": "Latifa",
+            "surname": "Skura",
+			"pesel": "61083036414",
+            "salary": 20000,
+            "position": 5,
+            "employment_date": "2017-10-13",
+			"promotion_date": "2017-10-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 125,
+        "fields": {
+            "supervisor": 4,
+            "name": "Bogusz",
+            "surname": "Daniszewski",
+			"pesel": "61083036414",
+            "salary": 7700,
+            "position": 4,
+            "employment_date": "2017-05-03",
+			"promotion_date": "2017-05-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 126,
+        "fields": {
+            "supervisor": 2,
+            "name": "Najs\u0142awa",
+            "surname": "Kra\u015bnicki",
+			"pesel": "61083036414",
+            "salary": 6300,
+            "position": 7,
+            "employment_date": "2018-12-10",
+			"promotion_date": "2018-12-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 127,
+        "fields": {
+            "supervisor": 1,
+            "name": "Marek",
+            "surname": "Raszewski",
+			"pesel": "61083036414",
+            "salary": 17600,
+            "position": 5,
+            "employment_date": "2016-09-26",
+			"promotion_date": "2016-09-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 128,
+        "fields": {
+            "supervisor": 1,
+            "name": "Kwiatos\u0142awa",
+            "surname": "Wola\u0144ski",
+			"pesel": "61083036414",
+            "salary": 5700,
+            "position": 9,
+            "employment_date": "2015-06-28",
+			"promotion_date": "2015-06-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 129,
+        "fields": {
+            "supervisor": 2,
+            "name": "Niecis\u0142aw",
+            "surname": "Meller",
+			"pesel": "61083036414",
+            "salary": 10300,
+            "position": 7,
+            "employment_date": "2018-05-18",
+			"promotion_date": "2018-05-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 130,
+        "fields": {
+            "supervisor": 2,
+            "name": "Dana",
+            "surname": "Skrzyniarz",
+			"pesel": "61083036414",
+            "salary": 10500,
+            "position": 9,
+            "employment_date": "2016-12-21",
+			"promotion_date": "2016-12-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 131,
+        "fields": {
+            "supervisor": 1,
+            "name": "Amanda",
+            "surname": "Nizio\u0142",
+			"pesel": "61083036414",
+            "salary": 14800,
+            "position": 5,
+            "employment_date": "2018-03-24",
+			"promotion_date": "2018-03-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 132,
+        "fields": {
+            "supervisor": 3,
+            "name": "Wera",
+            "surname": "Wysocki",
+			"pesel": "61083036414",
+            "salary": 17800,
+            "position": 9,
+            "employment_date": "2018-06-21",
+			"promotion_date": "2018-06-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 133,
+        "fields": {
+            "supervisor": 2,
+            "name": "Balbina",
+            "surname": "Kozakiewicz",
+			"pesel": "61083036414",
+            "salary": 2800,
+            "position": 10,
+            "employment_date": "2015-06-02",
+			"promotion_date": "2015-06-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 134,
+        "fields": {
+            "supervisor": 1,
+            "name": "Emir",
+            "surname": "Kraso\u0144",
+			"pesel": "61083036414",
+            "salary": 19100,
+            "position": 3,
+            "employment_date": "2018-01-28",
+			"promotion_date": "2018-01-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 135,
+        "fields": {
+            "supervisor": 2,
+            "name": "Iwan",
+            "surname": "Poniatowski",
+			"pesel": "61083036414",
+            "salary": 1800,
+            "position": 6,
+            "employment_date": "2018-11-10",
+			"promotion_date": "2018-11-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 136,
+        "fields": {
+            "supervisor": 1,
+            "name": "Ernesta",
+            "surname": "Szczotka",
+			"pesel": "61083036414",
+            "salary": 6900,
+            "position": 8,
+            "employment_date": "2015-09-08",
+			"promotion_date": "2015-09-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 137,
+        "fields": {
+            "supervisor": 1,
+            "name": "Marlena",
+            "surname": "Olek",
+			"pesel": "61083036414",
+            "salary": 1900,
+            "position": 1,
+            "employment_date": "2017-08-08",
+			"promotion_date": "2017-08-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 138,
+        "fields": {
+            "supervisor": 4,
+            "name": "Rodzis\u0142awa",
+            "surname": "Michalski",
+			"pesel": "61083036414",
+            "salary": 6900,
+            "position": 5,
+            "employment_date": "2015-08-02",
+			"promotion_date": "2015-08-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 139,
+        "fields": {
+            "supervisor": 1,
+            "name": "Alberta",
+            "surname": "Torba",
+			"pesel": "61083036414",
+            "salary": 4900,
+            "position": 7,
+            "employment_date": "2016-03-25",
+			"promotion_date": "2016-03-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 140,
+        "fields": {
+            "supervisor": 4,
+            "name": "Janina",
+            "surname": "Nawrat",
+			"pesel": "61083036414",
+            "salary": 10100,
+            "position": 9,
+            "employment_date": "2018-09-05",
+			"promotion_date": "2018-09-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 141,
+        "fields": {
+            "supervisor": 1,
+            "name": "Jaros\u0142awa",
+            "surname": "Chuda",
+			"pesel": "61083036414",
+            "salary": 7000,
+            "position": 8,
+            "employment_date": "2015-05-13",
+			"promotion_date": "2015-05-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 142,
+        "fields": {
+            "supervisor": 3,
+            "name": "Kiara",
+            "surname": "Matczak",
+			"pesel": "61083036414",
+            "salary": 19900,
+            "position": 8,
+            "employment_date": "2017-06-19",
+			"promotion_date": "2017-06-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 143,
+        "fields": {
+            "supervisor": 3,
+            "name": "Bart\u0142omiej",
+            "surname": "Cudak",
+			"pesel": "61083036414",
+            "salary": 13600,
+            "position": 8,
+            "employment_date": "2017-09-15",
+			"promotion_date": "2017-09-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 144,
+        "fields": {
+            "supervisor": 2,
+            "name": "Inocenty",
+            "surname": "Iwi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 3400,
+            "position": 1,
+            "employment_date": "2015-04-11",
+			"promotion_date": "2015-04-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 145,
+        "fields": {
+            "supervisor": 1,
+            "name": "Lilianna",
+            "surname": "Kuchta",
+			"pesel": "61083036414",
+            "salary": 16600,
+            "position": 3,
+            "employment_date": "2018-04-14",
+			"promotion_date": "2018-04-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 146,
+        "fields": {
+            "supervisor": 3,
+            "name": "Sarina",
+            "surname": "Tokarczyk",
+			"pesel": "61083036414",
+            "salary": 4000,
+            "position": 9,
+            "employment_date": "2018-08-28",
+			"promotion_date": "2018-08-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 147,
+        "fields": {
+            "supervisor": 3,
+            "name": "Leoncja",
+            "surname": "Brzezi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 15700,
+            "position": 3,
+            "employment_date": "2015-10-26",
+			"promotion_date": "2015-10-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 148,
+        "fields": {
+            "supervisor": 3,
+            "name": "Gwidon",
+            "surname": "Pawe\u0142ek",
+			"pesel": "61083036414",
+            "salary": 5600,
+            "position": 8,
+            "employment_date": "2016-02-24",
+			"promotion_date": "2016-02-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 149,
+        "fields": {
+            "supervisor": 3,
+            "name": "Bert",
+            "surname": "\u0141opata",
+			"pesel": "61083036414",
+            "salary": 15000,
+            "position": 10,
+            "employment_date": "2016-05-10",
+			"promotion_date": "2016-05-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 150,
+        "fields": {
+            "supervisor": 2,
+            "name": "Herakliusz",
+            "surname": "Rokosz",
+			"pesel": "61083036414",
+            "salary": 8600,
+            "position": 3,
+            "employment_date": "2018-06-20",
+			"promotion_date": "2018-06-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 151,
+        "fields": {
+            "supervisor": 3,
+            "name": "Keira",
+            "surname": "Ka\u0142u\u017cny",
+			"pesel": "61083036414",
+            "salary": 5600,
+            "position": 8,
+            "employment_date": "2015-08-17",
+			"promotion_date": "2015-08-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 152,
+        "fields": {
+            "supervisor": 3,
+            "name": "Orian",
+            "surname": "Wn\u0119k",
+			"pesel": "61083036414",
+            "salary": 5100,
+            "position": 4,
+            "employment_date": "2016-09-19",
+			"promotion_date": "2016-09-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 153,
+        "fields": {
+            "supervisor": 2,
+            "name": "Brygida",
+            "surname": "Stadnik",
+			"pesel": "61083036414",
+            "salary": 3900,
+            "position": 8,
+            "employment_date": "2017-04-16",
+			"promotion_date": "2017-04-16"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 154,
+        "fields": {
+            "supervisor": 3,
+            "name": "Ferdynanda",
+            "surname": "Dyla",
+			"pesel": "61083036414",
+            "salary": 4200,
+            "position": 4,
+            "employment_date": "2015-08-30",
+			"promotion_date": "2015-08-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 155,
+        "fields": {
+            "supervisor": 3,
+            "name": "\u017baneta",
+            "surname": "Staniek",
+			"pesel": "61083036414",
+            "salary": 8700,
+            "position": 6,
+            "employment_date": "2017-09-04",
+			"promotion_date": "2017-09-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 156,
+        "fields": {
+            "supervisor": 4,
+            "name": "Sulima",
+            "surname": "Dobrowolski",
+			"pesel": "61083036414",
+            "salary": 2200,
+            "position": 8,
+            "employment_date": "2015-11-26",
+			"promotion_date": "2015-11-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 157,
+        "fields": {
+            "supervisor": 1,
+            "name": "Arleta",
+            "surname": "Sobek",
+			"pesel": "61083036414",
+            "salary": 3000,
+            "position": 10,
+            "employment_date": "2017-10-09",
+			"promotion_date": "2017-10-09"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 158,
+        "fields": {
+            "supervisor": 1,
+            "name": "Morzena",
+            "surname": "Jakubik",
+			"pesel": "61083036414",
+            "salary": 12200,
+            "position": 6,
+            "employment_date": "2018-11-09",
+			"promotion_date": "2018-11-09"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 159,
+        "fields": {
+            "supervisor": 3,
+            "name": "Genowefa",
+            "surname": "Kupka",
+			"pesel": "61083036414",
+            "salary": 14600,
+            "position": 8,
+            "employment_date": "2016-02-08",
+			"promotion_date": "2016-02-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 160,
+        "fields": {
+            "supervisor": 3,
+            "name": "Florentyna",
+            "surname": "Rams",
+			"pesel": "61083036414",
+            "salary": 12700,
+            "position": 6,
+            "employment_date": "2017-03-15",
+			"promotion_date": "2017-03-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 161,
+        "fields": {
+            "supervisor": 4,
+            "name": "Marcjan",
+            "surname": "Le\u015bniowski",
+			"pesel": "61083036414",
+            "salary": 5800,
+            "position": 5,
+            "employment_date": "2017-08-05",
+			"promotion_date": "2017-08-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 162,
+        "fields": {
+            "supervisor": 1,
+            "name": "Szarlota",
+            "surname": "Szydlik",
+			"pesel": "61083036414",
+            "salary": 14500,
+            "position": 8,
+            "employment_date": "2015-09-20",
+			"promotion_date": "2015-09-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 163,
+        "fields": {
+            "supervisor": 1,
+            "name": "Mojmira",
+            "surname": "Kowolik",
+			"pesel": "61083036414",
+            "salary": 11400,
+            "position": 9,
+            "employment_date": "2017-03-22",
+			"promotion_date": "2017-03-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 164,
+        "fields": {
+            "supervisor": 4,
+            "name": "Bazyli",
+            "surname": "Lorek",
+			"pesel": "61083036414",
+            "salary": 13800,
+            "position": 9,
+            "employment_date": "2018-10-19",
+			"promotion_date": "2018-10-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 165,
+        "fields": {
+            "supervisor": 1,
+            "name": "Alan",
+            "surname": "Perkowski",
+			"pesel": "61083036414",
+            "salary": 14100,
+            "position": 9,
+            "employment_date": "2016-03-04",
+			"promotion_date": "2016-03-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 166,
+        "fields": {
+            "supervisor": 1,
+            "name": "Gabriela",
+            "surname": "Grabi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 19400,
+            "position": 4,
+            "employment_date": "2018-06-15",
+			"promotion_date": "2018-06-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 167,
+        "fields": {
+            "supervisor": 2,
+            "name": "Tarik",
+            "surname": "\u017belazowski",
+			"pesel": "61083036414",
+            "salary": 9300,
+            "position": 9,
+            "employment_date": "2015-05-29",
+			"promotion_date": "2015-05-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 168,
+        "fields": {
+            "supervisor": 3,
+            "name": "Sandra",
+            "surname": "Naskr\u0119t",
+			"pesel": "61083036414",
+            "salary": 12000,
+            "position": 2,
+            "employment_date": "2015-05-29",
+			"promotion_date": "2015-05-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 169,
+        "fields": {
+            "supervisor": 2,
+            "name": "Edgar",
+            "surname": "Zdeb",
+			"pesel": "61083036414",
+            "salary": 4700,
+            "position": 3,
+            "employment_date": "2018-05-14",
+			"promotion_date": "2018-05-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 170,
+        "fields": {
+            "supervisor": 2,
+            "name": "Uta",
+            "surname": "Krzywdzi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 12100,
+            "position": 6,
+            "employment_date": "2015-08-03",
+			"promotion_date": "2015-08-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 171,
+        "fields": {
+            "supervisor": 4,
+            "name": "Marian",
+            "surname": "Dom\u017calski",
+			"pesel": "61083036414",
+            "salary": 7500,
+            "position": 8,
+            "employment_date": "2016-07-27",
+			"promotion_date": "2016-07-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 172,
+        "fields": {
+            "supervisor": 1,
+            "name": "Szarlin",
+            "surname": "Sobecki",
+			"pesel": "61083036414",
+            "salary": 13800,
+            "position": 2,
+            "employment_date": "2018-12-17",
+			"promotion_date": "2018-12-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 173,
+        "fields": {
+            "supervisor": 4,
+            "name": "Bruno",
+            "surname": "Mitka",
+			"pesel": "61083036414",
+            "salary": 11400,
+            "position": 1,
+            "employment_date": "2016-02-05",
+			"promotion_date": "2016-02-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 174,
+        "fields": {
+            "supervisor": 2,
+            "name": "Aneta",
+            "surname": "Urba\u015b",
+			"pesel": "61083036414",
+            "salary": 16700,
+            "position": 7,
+            "employment_date": "2016-08-09",
+			"promotion_date": "2016-08-09"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 175,
+        "fields": {
+            "supervisor": 2,
+            "name": "Rozwita",
+            "surname": "Waszczuk",
+			"pesel": "61083036414",
+            "salary": 11700,
+            "position": 3,
+            "employment_date": "2016-12-14",
+			"promotion_date": "2016-12-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 176,
+        "fields": {
+            "supervisor": 1,
+            "name": "Roman",
+            "surname": "Felczak",
+			"pesel": "61083036414",
+            "salary": 16100,
+            "position": 2,
+            "employment_date": "2015-10-23",
+			"promotion_date": "2015-10-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 177,
+        "fields": {
+            "supervisor": 2,
+            "name": "Kwiatos\u0142aw",
+            "surname": "Wojty\u0142a",
+			"pesel": "61083036414",
+            "salary": 7100,
+            "position": 3,
+            "employment_date": "2015-08-21",
+			"promotion_date": "2015-08-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 178,
+        "fields": {
+            "supervisor": 1,
+            "name": "Bo\u017cidar",
+            "surname": "Pierzcha\u0142a",
+			"pesel": "61083036414",
+            "salary": 4700,
+            "position": 6,
+            "employment_date": "2018-04-26",
+			"promotion_date": "2018-04-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 179,
+        "fields": {
+            "supervisor": 2,
+            "name": "S\u0142awomierz",
+            "surname": "P\u0142onka",
+			"pesel": "61083036414",
+            "salary": 2700,
+            "position": 4,
+            "employment_date": "2016-09-13",
+			"promotion_date": "2016-09-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 180,
+        "fields": {
+            "supervisor": 3,
+            "name": "Godzis\u0142aw",
+            "surname": "G\u0142\u0105b",
+			"pesel": "61083036414",
+            "salary": 8900,
+            "position": 9,
+            "employment_date": "2018-12-13",
+			"promotion_date": "2018-12-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 181,
+        "fields": {
+            "supervisor": 3,
+            "name": "Renata",
+            "surname": "Baczy\u0144ski",
+			"pesel": "61083036414",
+            "salary": 18100,
+            "position": 4,
+            "employment_date": "2017-10-01",
+			"promotion_date": "2017-10-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 182,
+        "fields": {
+            "supervisor": 1,
+            "name": "Ludmi\u0142",
+            "surname": "My\u015bliwiec",
+			"pesel": "61083036414",
+            "salary": 6500,
+            "position": 6,
+            "employment_date": "2017-01-01",
+			"promotion_date": "2017-01-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 183,
+        "fields": {
+            "supervisor": 4,
+            "name": "Izabela",
+            "surname": "Iwaniec",
+			"pesel": "61083036414",
+            "salary": 10100,
+            "position": 3,
+            "employment_date": "2016-05-21",
+			"promotion_date": "2016-05-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 184,
+        "fields": {
+            "supervisor": 2,
+            "name": "Dal",
+            "surname": "Ho\u0142ownia",
+			"pesel": "61083036414",
+            "salary": 6300,
+            "position": 6,
+            "employment_date": "2015-03-01",
+			"promotion_date": "2015-03-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 185,
+        "fields": {
+            "supervisor": 1,
+            "name": "Irmina",
+            "surname": "Bieli\u0144ski",
+			"pesel": "61083036414",
+            "salary": 19700,
+            "position": 2,
+            "employment_date": "2018-08-29",
+			"promotion_date": "2018-08-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 186,
+        "fields": {
+            "supervisor": 2,
+            "name": "Sylwan",
+            "surname": "Og\u00f3rek",
+			"pesel": "61083036414",
+            "salary": 9200,
+            "position": 8,
+            "employment_date": "2017-10-17",
+			"promotion_date": "2017-10-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 187,
+        "fields": {
+            "supervisor": 1,
+            "name": "Ludomi\u0142",
+            "surname": "Wiktorski",
+			"pesel": "61083036414",
+            "salary": 5600,
+            "position": 2,
+            "employment_date": "2016-10-02",
+			"promotion_date": "2016-10-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 188,
+        "fields": {
+            "supervisor": 3,
+            "name": "Zygmunta",
+            "surname": "Sroczy\u0144ski",
+			"pesel": "61083036414",
+            "salary": 11600,
+            "position": 8,
+            "employment_date": "2016-11-06",
+			"promotion_date": "2016-11-06"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 189,
+        "fields": {
+            "supervisor": 2,
+            "name": "Teofil",
+            "surname": "Cwalina",
+			"pesel": "61083036414",
+            "salary": 3700,
+            "position": 6,
+            "employment_date": "2016-06-08",
+			"promotion_date": "2016-06-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 190,
+        "fields": {
+            "supervisor": 4,
+            "name": "Pelagia",
+            "surname": "Korczy\u0144ski",
+			"pesel": "61083036414",
+            "salary": 5300,
+            "position": 10,
+            "employment_date": "2016-07-13",
+			"promotion_date": "2016-07-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 191,
+        "fields": {
+            "supervisor": 4,
+            "name": "Anita",
+            "surname": "Mianowski",
+			"pesel": "61083036414",
+            "salary": 18700,
+            "position": 9,
+            "employment_date": "2016-08-03",
+			"promotion_date": "2016-08-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 192,
+        "fields": {
+            "supervisor": 1,
+            "name": "Anastazy",
+            "surname": "\u017b\u0105d\u0142o",
+			"pesel": "61083036414",
+            "salary": 10500,
+            "position": 8,
+            "employment_date": "2018-06-28",
+			"promotion_date": "2018-06-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 193,
+        "fields": {
+            "supervisor": 2,
+            "name": "Gabriel",
+            "surname": "Wieche\u0107",
+			"pesel": "61083036414",
+            "salary": 13900,
+            "position": 3,
+            "employment_date": "2018-02-01",
+			"promotion_date": "2018-02-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 194,
+        "fields": {
+            "supervisor": 2,
+            "name": "Marta",
+            "surname": "Lubas",
+			"pesel": "61083036414",
+            "salary": 7900,
+            "position": 8,
+            "employment_date": "2018-09-20",
+			"promotion_date": "2018-09-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 195,
+        "fields": {
+            "supervisor": 3,
+            "name": "J\u00f3zefat",
+            "surname": "Skawi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 14900,
+            "position": 9,
+            "employment_date": "2018-04-22",
+			"promotion_date": "2018-04-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 196,
+        "fields": {
+            "supervisor": 2,
+            "name": "Ursyn",
+            "surname": "Pola\u0144ski",
+			"pesel": "61083036414",
+            "salary": 12100,
+            "position": 4,
+            "employment_date": "2017-08-22",
+			"promotion_date": "2017-08-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 197,
+        "fields": {
+            "supervisor": 1,
+            "name": "Hermes",
+            "surname": "Syski",
+			"pesel": "61083036414",
+            "salary": 19800,
+            "position": 1,
+            "employment_date": "2018-05-11",
+			"promotion_date": "2018-05-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 198,
+        "fields": {
+            "supervisor": 2,
+            "name": "Makryn",
+            "surname": "Jab\u0142onka",
+			"pesel": "61083036414",
+            "salary": 10300,
+            "position": 3,
+            "employment_date": "2015-09-30",
+			"promotion_date": "2015-09-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 199,
+        "fields": {
+            "supervisor": 1,
+            "name": "Adela",
+            "surname": "Sarnecki",
+			"pesel": "61083036414",
+            "salary": 3700,
+            "position": 9,
+            "employment_date": "2016-02-08",
+			"promotion_date": "2016-02-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 200,
+        "fields": {
+            "supervisor": 2,
+            "name": "Otniel",
+            "surname": "Wiater",
+			"pesel": "61083036414",
+            "salary": 12400,
+            "position": 4,
+            "employment_date": "2015-06-24",
+			"promotion_date": "2015-06-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 201,
+        "fields": {
+            "supervisor": 1,
+            "name": "Stella",
+            "surname": "Krzykowski",
+			"pesel": "61083036414",
+            "salary": 4900,
+            "position": 10,
+            "employment_date": "2018-11-03",
+			"promotion_date": "2018-11-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 202,
+        "fields": {
+            "supervisor": 4,
+            "name": "Ingeborga",
+            "surname": "Dr\u0119\u017cek",
+			"pesel": "61083036414",
+            "salary": 7500,
+            "position": 8,
+            "employment_date": "2018-12-30",
+			"promotion_date": "2018-12-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 203,
+        "fields": {
+            "supervisor": 2,
+            "name": "Szczepan",
+            "surname": "Tutak",
+			"pesel": "61083036414",
+            "salary": 10700,
+            "position": 1,
+            "employment_date": "2016-07-12",
+			"promotion_date": "2016-07-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 204,
+        "fields": {
+            "supervisor": 4,
+            "name": "Paulina",
+            "surname": "Pa\u015b",
+			"pesel": "61083036414",
+            "salary": 18000,
+            "position": 2,
+            "employment_date": "2017-03-21",
+			"promotion_date": "2017-03-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 205,
+        "fields": {
+            "supervisor": 1,
+            "name": "Dalila",
+            "surname": "Pokrywka",
+			"pesel": "61083036414",
+            "salary": 16600,
+            "position": 7,
+            "employment_date": "2017-11-03",
+			"promotion_date": "2017-11-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 206,
+        "fields": {
+            "supervisor": 3,
+            "name": "Grzyms\u0142awa",
+            "surname": "Pustelnik",
+			"pesel": "61083036414",
+            "salary": 20000,
+            "position": 4,
+            "employment_date": "2017-12-21",
+			"promotion_date": "2017-12-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 207,
+        "fields": {
+            "supervisor": 3,
+            "name": "Grzegorz",
+            "surname": "Pakulski",
+			"pesel": "61083036414",
+            "salary": 17000,
+            "position": 2,
+            "employment_date": "2018-05-13",
+			"promotion_date": "2018-05-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 208,
+        "fields": {
+            "supervisor": 1,
+            "name": "Kajfasz",
+            "surname": "Szczygielski",
+			"pesel": "61083036414",
+            "salary": 12800,
+            "position": 8,
+            "employment_date": "2018-07-08",
+			"promotion_date": "2018-07-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 209,
+        "fields": {
+            "supervisor": 2,
+            "name": "Hermenegilda",
+            "surname": "Lewandowicz",
+			"pesel": "61083036414",
+            "salary": 3900,
+            "position": 4,
+            "employment_date": "2017-10-21",
+			"promotion_date": "2017-10-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 210,
+        "fields": {
+            "supervisor": 2,
+            "name": "Walentyna",
+            "surname": "Z\u0105bek",
+			"pesel": "61083036414",
+            "salary": 1800,
+            "position": 4,
+            "employment_date": "2015-10-04",
+			"promotion_date": "2015-10-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 211,
+        "fields": {
+            "supervisor": 4,
+            "name": "Grzymis\u0142aw",
+            "surname": "G\u0119bka",
+			"pesel": "61083036414",
+            "salary": 11400,
+            "position": 6,
+            "employment_date": "2018-12-05",
+			"promotion_date": "2018-12-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 212,
+        "fields": {
+            "supervisor": 4,
+            "name": "Luiza",
+            "surname": "Michalak",
+			"pesel": "61083036414",
+            "salary": 18300,
+            "position": 3,
+            "employment_date": "2015-05-27",
+			"promotion_date": "2015-05-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 213,
+        "fields": {
+            "supervisor": 3,
+            "name": "Anna",
+            "surname": "Tomkiewicz",
+			"pesel": "61083036414",
+            "salary": 15900,
+            "position": 8,
+            "employment_date": "2015-11-11",
+			"promotion_date": "2015-11-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 214,
+        "fields": {
+            "supervisor": 1,
+            "name": "Napoleon",
+            "surname": "Szczecina",
+			"pesel": "61083036414",
+            "salary": 2700,
+            "position": 3,
+            "employment_date": "2016-10-27",
+			"promotion_date": "2016-10-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 215,
+        "fields": {
+            "supervisor": 1,
+            "name": "Natasza",
+            "surname": "Ryczek",
+			"pesel": "61083036414",
+            "salary": 5700,
+            "position": 3,
+            "employment_date": "2017-09-13",
+			"promotion_date": "2017-09-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 216,
+        "fields": {
+            "supervisor": 3,
+            "name": "Magda",
+            "surname": "Grzeszczak",
+			"pesel": "61083036414",
+            "salary": 13800,
+            "position": 9,
+            "employment_date": "2015-12-21",
+			"promotion_date": "2015-12-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 217,
+        "fields": {
+            "supervisor": 2,
+            "name": "Halszka",
+            "surname": "Arciszewski",
+			"pesel": "61083036414",
+            "salary": 13600,
+            "position": 10,
+            "employment_date": "2017-01-19",
+			"promotion_date": "2017-01-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 218,
+        "fields": {
+            "supervisor": 3,
+            "name": "Nikodem",
+            "surname": "Gwiazdowski",
+			"pesel": "61083036414",
+            "salary": 8100,
+            "position": 10,
+            "employment_date": "2015-10-10",
+			"promotion_date": "2015-10-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 219,
+        "fields": {
+            "supervisor": 2,
+            "name": "Zdzis\u0142aw",
+            "surname": "Pyka",
+			"pesel": "61083036414",
+            "salary": 10200,
+            "position": 8,
+            "employment_date": "2018-01-15",
+			"promotion_date": "2018-01-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 220,
+        "fields": {
+            "supervisor": 2,
+            "name": "Przemys\u0142",
+            "surname": "Bartnicki",
+			"pesel": "61083036414",
+            "salary": 17400,
+            "position": 4,
+            "employment_date": "2016-07-13",
+			"promotion_date": "2016-07-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 221,
+        "fields": {
+            "supervisor": 4,
+            "name": "Aleksy",
+            "surname": "D\u0119biec",
+			"pesel": "61083036414",
+            "salary": 12000,
+            "position": 4,
+            "employment_date": "2017-03-13",
+			"promotion_date": "2017-03-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 222,
+        "fields": {
+            "supervisor": 2,
+            "name": "Tomis\u0142aw",
+            "surname": "Tatar",
+			"pesel": "61083036414",
+            "salary": 10500,
+            "position": 2,
+            "employment_date": "2017-12-20",
+			"promotion_date": "2017-12-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 223,
+        "fields": {
+            "supervisor": 3,
+            "name": "Dobies\u0142aw",
+            "surname": "Morawski",
+			"pesel": "61083036414",
+            "salary": 13300,
+            "position": 7,
+            "employment_date": "2017-05-07",
+			"promotion_date": "2017-05-07"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 224,
+        "fields": {
+            "supervisor": 1,
+            "name": "Fabia",
+            "surname": "Olkiewicz",
+			"pesel": "61083036414",
+            "salary": 8000,
+            "position": 1,
+            "employment_date": "2017-05-10",
+			"promotion_date": "2017-05-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 225,
+        "fields": {
+            "supervisor": 3,
+            "name": "Apoloniusz",
+            "surname": "Ko\u017ami\u0144ski",
+			"pesel": "61083036414",
+            "salary": 16200,
+            "position": 1,
+            "employment_date": "2015-05-23",
+			"promotion_date": "2015-05-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 226,
+        "fields": {
+            "supervisor": 2,
+            "name": "Ja\u015bmina",
+            "surname": "Kowalski",
+			"pesel": "61083036414",
+            "salary": 9200,
+            "position": 1,
+            "employment_date": "2016-07-02",
+			"promotion_date": "2016-07-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 227,
+        "fields": {
+            "supervisor": 4,
+            "name": "Walerian",
+            "surname": "Kali\u0144ski",
+			"pesel": "61083036414",
+            "salary": 18300,
+            "position": 7,
+            "employment_date": "2016-08-12",
+			"promotion_date": "2016-08-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 228,
+        "fields": {
+            "supervisor": 4,
+            "name": "Wincentyna",
+            "surname": "Przyby\u0142o",
+			"pesel": "61083036414",
+            "salary": 10500,
+            "position": 3,
+            "employment_date": "2015-10-17",
+			"promotion_date": "2015-10-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 229,
+        "fields": {
+            "supervisor": 3,
+            "name": "Kornel",
+            "surname": "Pilecki",
+			"pesel": "61083036414",
+            "salary": 16000,
+            "position": 2,
+            "employment_date": "2018-01-11",
+			"promotion_date": "2018-01-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 230,
+        "fields": {
+            "supervisor": 3,
+            "name": "Ludwina",
+            "surname": "Ku\u0142aga",
+			"pesel": "61083036414",
+            "salary": 6000,
+            "position": 6,
+            "employment_date": "2015-11-23",
+			"promotion_date": "2015-11-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 231,
+        "fields": {
+            "supervisor": 3,
+            "name": "Waldemar",
+            "surname": "Mazur",
+			"pesel": "61083036414",
+            "salary": 12300,
+            "position": 8,
+            "employment_date": "2016-09-23",
+			"promotion_date": "2016-09-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 232,
+        "fields": {
+            "supervisor": 4,
+            "name": "Idalia",
+            "surname": "Szarzy\u0144ski",
+			"pesel": "61083036414",
+            "salary": 7300,
+            "position": 9,
+            "employment_date": "2017-12-15",
+			"promotion_date": "2017-12-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 233,
+        "fields": {
+            "supervisor": 4,
+            "name": "Lech",
+            "surname": "Cierpisz",
+			"pesel": "61083036414",
+            "salary": 13500,
+            "position": 7,
+            "employment_date": "2015-04-26",
+			"promotion_date": "2015-04-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 234,
+        "fields": {
+            "supervisor": 4,
+            "name": "Wac\u0142aw",
+            "surname": "Kasperczyk",
+			"pesel": "61083036414",
+            "salary": 9700,
+            "position": 2,
+            "employment_date": "2016-08-25",
+			"promotion_date": "2016-08-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 235,
+        "fields": {
+            "supervisor": 2,
+            "name": "Dalgur",
+            "surname": "\u017bakowski",
+			"pesel": "61083036414",
+            "salary": 12100,
+            "position": 10,
+            "employment_date": "2016-11-20",
+			"promotion_date": "2016-11-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 236,
+        "fields": {
+            "supervisor": 4,
+            "name": "Witos\u0142awa",
+            "surname": "Wojas",
+			"pesel": "61083036414",
+            "salary": 16800,
+            "position": 7,
+            "employment_date": "2018-01-07",
+			"promotion_date": "2018-01-07"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 237,
+        "fields": {
+            "supervisor": 1,
+            "name": "Zaida",
+            "surname": "Ja\u015bkowski",
+			"pesel": "61083036414",
+            "salary": 13600,
+            "position": 1,
+            "employment_date": "2017-12-18",
+			"promotion_date": "2017-12-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 238,
+        "fields": {
+            "supervisor": 3,
+            "name": "Sylwana",
+            "surname": "Niedzielski",
+			"pesel": "61083036414",
+            "salary": 13800,
+            "position": 4,
+            "employment_date": "2017-02-21",
+			"promotion_date": "2017-02-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 239,
+        "fields": {
+            "supervisor": 2,
+            "name": "Gualfard",
+            "surname": "K\u0142ys",
+			"pesel": "61083036414",
+            "salary": 6000,
+            "position": 5,
+            "employment_date": "2016-10-29",
+			"promotion_date": "2016-10-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 240,
+        "fields": {
+            "supervisor": 1,
+            "name": "Anzelma",
+            "surname": "Biela",
+			"pesel": "61083036414",
+            "salary": 6900,
+            "position": 7,
+            "employment_date": "2016-03-31",
+			"promotion_date": "2016-03-31"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 241,
+        "fields": {
+            "supervisor": 4,
+            "name": "Stojan",
+            "surname": "Czerniawski",
+			"pesel": "61083036414",
+            "salary": 7200,
+            "position": 6,
+            "employment_date": "2015-04-23",
+			"promotion_date": "2015-04-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 242,
+        "fields": {
+            "supervisor": 4,
+            "name": "Jana",
+            "surname": "Bugaj",
+			"pesel": "61083036414",
+            "salary": 17100,
+            "position": 1,
+            "employment_date": "2016-06-15",
+			"promotion_date": "2016-06-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 243,
+        "fields": {
+            "supervisor": 1,
+            "name": "Benedykt",
+            "surname": "Zambrzycki",
+			"pesel": "61083036414",
+            "salary": 14100,
+            "position": 2,
+            "employment_date": "2015-11-24",
+			"promotion_date": "2015-11-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 244,
+        "fields": {
+            "supervisor": 1,
+            "name": "Nadia",
+            "surname": "G\u0142uchowski",
+			"pesel": "61083036414",
+            "salary": 10100,
+            "position": 8,
+            "employment_date": "2018-04-27",
+			"promotion_date": "2018-04-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 245,
+        "fields": {
+            "supervisor": 3,
+            "name": "Flora",
+            "surname": "Balicki",
+			"pesel": "61083036414",
+            "salary": 14500,
+            "position": 3,
+            "employment_date": "2017-07-30",
+			"promotion_date": "2017-07-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 246,
+        "fields": {
+            "supervisor": 4,
+            "name": "\u017barko",
+            "surname": "Wojew\u00f3dzki",
+			"pesel": "61083036414",
+            "salary": 17500,
+            "position": 1,
+            "employment_date": "2017-11-26",
+			"promotion_date": "2017-11-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 247,
+        "fields": {
+            "supervisor": 2,
+            "name": "Wi\u0119ces\u0142aw",
+            "surname": "Konior",
+			"pesel": "61083036414",
+            "salary": 18300,
+            "position": 9,
+            "employment_date": "2017-03-03",
+			"promotion_date": "2017-03-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 248,
+        "fields": {
+            "supervisor": 2,
+            "name": "Wahid",
+            "surname": "Wycisk",
+			"pesel": "61083036414",
+            "salary": 2200,
+            "position": 1,
+            "employment_date": "2017-08-17",
+			"promotion_date": "2017-08-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 249,
+        "fields": {
+            "supervisor": 3,
+            "name": "Miroda",
+            "surname": "Januszek",
+			"pesel": "61083036414",
+            "salary": 13300,
+            "position": 7,
+            "employment_date": "2017-11-21",
+			"promotion_date": "2017-11-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 250,
+        "fields": {
+            "supervisor": 2,
+            "name": "Adelard",
+            "surname": "Sp\u0142awski",
+			"pesel": "61083036414",
+            "salary": 18300,
+            "position": 6,
+            "employment_date": "2015-02-28",
+			"promotion_date": "2015-02-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 251,
+        "fields": {
+            "supervisor": 1,
+            "name": "Brunhilda",
+            "surname": "Gzik",
+			"pesel": "61083036414",
+            "salary": 9100,
+            "position": 2,
+            "employment_date": "2018-05-22",
+			"promotion_date": "2018-05-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 252,
+        "fields": {
+            "supervisor": 1,
+            "name": "Wit",
+            "surname": "Smoter",
+			"pesel": "61083036414",
+            "salary": 18300,
+            "position": 9,
+            "employment_date": "2017-09-26",
+			"promotion_date": "2017-09-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 253,
+        "fields": {
+            "supervisor": 3,
+            "name": "Tyria",
+            "surname": "Formella",
+			"pesel": "61083036414",
+            "salary": 16300,
+            "position": 6,
+            "employment_date": "2017-05-10",
+			"promotion_date": "2017-05-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 254,
+        "fields": {
+            "supervisor": 3,
+            "name": "Elena",
+            "surname": "Zyba\u0142a",
+			"pesel": "61083036414",
+            "salary": 18200,
+            "position": 9,
+            "employment_date": "2017-01-25",
+			"promotion_date": "2017-01-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 255,
+        "fields": {
+            "supervisor": 3,
+            "name": "Ajdin",
+            "surname": "Walczyk",
+			"pesel": "61083036414",
+            "salary": 18800,
+            "position": 2,
+            "employment_date": "2018-02-25",
+			"promotion_date": "2018-02-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 256,
+        "fields": {
+            "supervisor": 3,
+            "name": "Irina",
+            "surname": "Olejarczyk",
+			"pesel": "61083036414",
+            "salary": 17200,
+            "position": 6,
+            "employment_date": "2015-07-30",
+			"promotion_date": "2015-07-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 257,
+        "fields": {
+            "supervisor": 1,
+            "name": "Ignacy",
+            "surname": "Fr\u0105k",
+			"pesel": "61083036414",
+            "salary": 5300,
+            "position": 3,
+            "employment_date": "2015-09-26",
+			"promotion_date": "2015-09-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 258,
+        "fields": {
+            "supervisor": 4,
+            "name": "Henrieta",
+            "surname": "Gomu\u0142ka",
+			"pesel": "61083036414",
+            "salary": 18900,
+            "position": 7,
+            "employment_date": "2018-09-15",
+			"promotion_date": "2018-09-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 259,
+        "fields": {
+            "supervisor": 4,
+            "name": "Zwinis\u0142aw",
+            "surname": "Chojecki",
+			"pesel": "61083036414",
+            "salary": 7100,
+            "position": 6,
+            "employment_date": "2015-08-05",
+			"promotion_date": "2015-08-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 260,
+        "fields": {
+            "supervisor": 4,
+            "name": "Melania",
+            "surname": "Godlewski",
+			"pesel": "61083036414",
+            "salary": 11200,
+            "position": 9,
+            "employment_date": "2016-04-27",
+			"promotion_date": "2016-04-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 261,
+        "fields": {
+            "supervisor": 3,
+            "name": "Julian",
+            "surname": "Pawe\u0142czyk",
+			"pesel": "61083036414",
+            "salary": 4000,
+            "position": 5,
+            "employment_date": "2018-08-23",
+			"promotion_date": "2018-08-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 262,
+        "fields": {
+            "supervisor": 1,
+            "name": "Farid",
+            "surname": "Zysk",
+			"pesel": "61083036414",
+            "salary": 5900,
+            "position": 3,
+            "employment_date": "2015-07-15",
+			"promotion_date": "2015-07-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 263,
+        "fields": {
+            "supervisor": 4,
+            "name": "Bogus\u0142aw",
+            "surname": "Kruczek",
+			"pesel": "61083036414",
+            "salary": 5800,
+            "position": 7,
+            "employment_date": "2018-08-23",
+			"promotion_date": "2018-08-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 264,
+        "fields": {
+            "supervisor": 4,
+            "name": "Faustyna",
+            "surname": "Glinkowski",
+			"pesel": "61083036414",
+            "salary": 11400,
+            "position": 3,
+            "employment_date": "2015-01-05",
+			"promotion_date": "2015-01-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 265,
+        "fields": {
+            "supervisor": 4,
+            "name": "Lubis\u0142aw",
+            "surname": "Grzyma\u0142a",
+			"pesel": "61083036414",
+            "salary": 18700,
+            "position": 6,
+            "employment_date": "2016-12-21",
+			"promotion_date": "2016-12-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 266,
+        "fields": {
+            "supervisor": 4,
+            "name": "Leokadia",
+            "surname": "Kryszak",
+			"pesel": "61083036414",
+            "salary": 11700,
+            "position": 5,
+            "employment_date": "2015-05-17",
+			"promotion_date": "2015-05-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 267,
+        "fields": {
+            "supervisor": 4,
+            "name": "Angela",
+            "surname": "Rosiek",
+			"pesel": "61083036414",
+            "salary": 13600,
+            "position": 5,
+            "employment_date": "2018-01-24",
+			"promotion_date": "2018-01-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 268,
+        "fields": {
+            "supervisor": 4,
+            "name": "Zenobia",
+            "surname": "Gryko",
+			"pesel": "61083036414",
+            "salary": 3200,
+            "position": 2,
+            "employment_date": "2018-11-16",
+			"promotion_date": "2018-11-16"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 269,
+        "fields": {
+            "supervisor": 3,
+            "name": "Ambro\u017cy",
+            "surname": "Zagrodzki",
+			"pesel": "61083036414",
+            "salary": 7000,
+            "position": 3,
+            "employment_date": "2016-10-30",
+			"promotion_date": "2016-10-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 270,
+        "fields": {
+            "supervisor": 3,
+            "name": "Marianna",
+            "surname": "Rygiel",
+			"pesel": "61083036414",
+            "salary": 2600,
+            "position": 4,
+            "employment_date": "2016-03-08",
+			"promotion_date": "2016-03-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 271,
+        "fields": {
+            "supervisor": 2,
+            "name": "Agaton",
+            "surname": "Drywa",
+			"pesel": "61083036414",
+            "salary": 16500,
+            "position": 9,
+            "employment_date": "2016-09-30",
+			"promotion_date": "2016-09-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 272,
+        "fields": {
+            "supervisor": 3,
+            "name": "Justyn",
+            "surname": "Gibas",
+			"pesel": "61083036414",
+            "salary": 15700,
+            "position": 6,
+            "employment_date": "2017-02-05",
+			"promotion_date": "2017-02-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 273,
+        "fields": {
+            "supervisor": 3,
+            "name": "Desreta",
+            "surname": "Ba\u0142dyga",
+			"pesel": "61083036414",
+            "salary": 11000,
+            "position": 2,
+            "employment_date": "2017-01-28",
+			"promotion_date": "2017-01-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 274,
+        "fields": {
+            "supervisor": 3,
+            "name": "Marzena",
+            "surname": "Piekarski",
+			"pesel": "61083036414",
+            "salary": 15600,
+            "position": 4,
+            "employment_date": "2017-05-29",
+			"promotion_date": "2017-05-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 275,
+        "fields": {
+            "supervisor": 3,
+            "name": "Lena",
+            "surname": "Langer",
+			"pesel": "61083036414",
+            "salary": 2400,
+            "position": 10,
+            "employment_date": "2015-07-27",
+			"promotion_date": "2015-07-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 276,
+        "fields": {
+            "supervisor": 1,
+            "name": "Estera",
+            "surname": "Zag\u00f3rski",
+			"pesel": "61083036414",
+            "salary": 6000,
+            "position": 6,
+            "employment_date": "2016-03-13",
+			"promotion_date": "2016-03-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 277,
+        "fields": {
+            "supervisor": 1,
+            "name": "Rozamunda",
+            "surname": "Sawka",
+			"pesel": "61083036414",
+            "salary": 8300,
+            "position": 3,
+            "employment_date": "2016-07-31",
+			"promotion_date": "2016-07-31"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 278,
+        "fields": {
+            "supervisor": 4,
+            "name": "Anzelm",
+            "surname": "Ziarko",
+			"pesel": "61083036414",
+            "salary": 13000,
+            "position": 9,
+            "employment_date": "2016-09-04",
+			"promotion_date": "2016-09-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 279,
+        "fields": {
+            "supervisor": 4,
+            "name": "Saloma",
+            "surname": "Stasiewicz",
+			"pesel": "61083036414",
+            "salary": 3000,
+            "position": 9,
+            "employment_date": "2015-06-22",
+			"promotion_date": "2015-06-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 280,
+        "fields": {
+            "supervisor": 4,
+            "name": "Aliana",
+            "surname": "Krzy\u017caniak",
+			"pesel": "61083036414",
+            "salary": 5500,
+            "position": 1,
+            "employment_date": "2015-02-22",
+			"promotion_date": "2015-02-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 281,
+        "fields": {
+            "supervisor": 3,
+            "name": "Adrian",
+            "surname": "Kurzeja",
+			"pesel": "61083036414",
+            "salary": 6700,
+            "position": 4,
+            "employment_date": "2016-03-05",
+			"promotion_date": "2016-03-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 282,
+        "fields": {
+            "supervisor": 3,
+            "name": "Modest",
+            "surname": "Skorupi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 12400,
+            "position": 7,
+            "employment_date": "2016-04-17",
+			"promotion_date": "2016-04-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 283,
+        "fields": {
+            "supervisor": 2,
+            "name": "Waryn",
+            "surname": "Bauer",
+			"pesel": "61083036414",
+            "salary": 13200,
+            "position": 4,
+            "employment_date": "2015-08-22",
+			"promotion_date": "2015-08-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 284,
+        "fields": {
+            "supervisor": 1,
+            "name": "Prokop",
+            "surname": "Dolata",
+			"pesel": "61083036414",
+            "salary": 5900,
+            "position": 10,
+            "employment_date": "2016-11-12",
+			"promotion_date": "2016-11-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 285,
+        "fields": {
+            "supervisor": 2,
+            "name": "Bolebor",
+            "surname": "Polak",
+			"pesel": "61083036414",
+            "salary": 15500,
+            "position": 7,
+            "employment_date": "2016-02-10",
+			"promotion_date": "2016-02-10"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 286,
+        "fields": {
+            "supervisor": 4,
+            "name": "Sylwia",
+            "surname": "\u017bygad\u0142o",
+			"pesel": "61083036414",
+            "salary": 16400,
+            "position": 4,
+            "employment_date": "2015-10-11",
+			"promotion_date": "2015-10-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 287,
+        "fields": {
+            "supervisor": 3,
+            "name": "Klemens",
+            "surname": "Piwo\u0144ski",
+			"pesel": "61083036414",
+            "salary": 4300,
+            "position": 6,
+            "employment_date": "2018-07-19",
+			"promotion_date": "2018-07-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 288,
+        "fields": {
+            "supervisor": 3,
+            "name": "Wielis\u0142aw",
+            "surname": "Radomski",
+			"pesel": "61083036414",
+            "salary": 8600,
+            "position": 1,
+            "employment_date": "2016-04-21",
+			"promotion_date": "2016-04-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 289,
+        "fields": {
+            "supervisor": 1,
+            "name": "Godehard",
+            "surname": "Szlachta",
+			"pesel": "61083036414",
+            "salary": 2000,
+            "position": 5,
+            "employment_date": "2016-09-09",
+			"promotion_date": "2016-09-09"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 290,
+        "fields": {
+            "supervisor": 2,
+            "name": "Malachiasz",
+            "surname": "Joniec",
+			"pesel": "61083036414",
+            "salary": 16200,
+            "position": 8,
+            "employment_date": "2015-12-30",
+			"promotion_date": "2015-12-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 291,
+        "fields": {
+            "supervisor": 4,
+            "name": "Izydor",
+            "surname": "K\u0142ak",
+			"pesel": "61083036414",
+            "salary": 15200,
+            "position": 9,
+            "employment_date": "2018-01-31",
+			"promotion_date": "2018-01-31"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 292,
+        "fields": {
+            "supervisor": 1,
+            "name": "Ewald",
+            "surname": "Rudzi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 3100,
+            "position": 8,
+            "employment_date": "2018-05-31",
+			"promotion_date": "2018-05-31"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 293,
+        "fields": {
+            "supervisor": 2,
+            "name": "Elora",
+            "surname": "Domachowski",
+			"pesel": "61083036414",
+            "salary": 16000,
+            "position": 4,
+            "employment_date": "2018-01-31",
+			"promotion_date": "2018-01-31"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 294,
+        "fields": {
+            "supervisor": 1,
+            "name": "Marcelina",
+            "surname": "Andrzejczuk",
+			"pesel": "61083036414",
+            "salary": 19400,
+            "position": 8,
+            "employment_date": "2016-10-28",
+			"promotion_date": "2016-10-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 295,
+        "fields": {
+            "supervisor": 3,
+            "name": "Petronela",
+            "surname": "Wo\u017anica",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 7,
+            "employment_date": "2017-06-04",
+			"promotion_date": "2017-06-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 296,
+        "fields": {
+            "supervisor": 2,
+            "name": "Dilara",
+            "surname": "Leszko",
+			"pesel": "61083036414",
+            "salary": 8400,
+            "position": 5,
+            "employment_date": "2015-05-05",
+			"promotion_date": "2015-05-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 297,
+        "fields": {
+            "supervisor": 2,
+            "name": "Eryka",
+            "surname": "Filipiuk",
+			"pesel": "61083036414",
+            "salary": 18900,
+            "position": 9,
+            "employment_date": "2016-01-08",
+			"promotion_date": "2016-01-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 298,
+        "fields": {
+            "supervisor": 4,
+            "name": "Jaromi\u0142a",
+            "surname": "Galewski",
+			"pesel": "61083036414",
+            "salary": 14400,
+            "position": 5,
+            "employment_date": "2016-05-25",
+			"promotion_date": "2016-05-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 299,
+        "fields": {
+            "supervisor": 1,
+            "name": "S\u0142awomir",
+            "surname": "Szefer",
+			"pesel": "61083036414",
+            "salary": 13600,
+            "position": 2,
+            "employment_date": "2015-01-31",
+			"promotion_date": "2015-01-31"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 300,
+        "fields": {
+            "supervisor": 4,
+            "name": "Rut",
+            "surname": "Frank",
+			"pesel": "61083036414",
+            "salary": 4600,
+            "position": 1,
+            "employment_date": "2015-03-28",
+			"promotion_date": "2015-03-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 301,
+        "fields": {
+            "supervisor": 3,
+            "name": "D\u0105br\u00f3wka",
+            "surname": "Pietrasik",
+			"pesel": "61083036414",
+            "salary": 9600,
+            "position": 10,
+            "employment_date": "2017-04-19",
+			"promotion_date": "2017-04-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 302,
+        "fields": {
+            "supervisor": 2,
+            "name": "Makary",
+            "surname": "Cymerman",
+			"pesel": "61083036414",
+            "salary": 3800,
+            "position": 7,
+            "employment_date": "2017-02-09",
+			"promotion_date": "2017-02-09"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 303,
+        "fields": {
+            "supervisor": 4,
+            "name": "Amina",
+            "surname": "Nurzy\u0144ski",
+			"pesel": "61083036414",
+            "salary": 18000,
+            "position": 8,
+            "employment_date": "2018-03-20",
+			"promotion_date": "2018-03-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 304,
+        "fields": {
+            "supervisor": 3,
+            "name": "Sydonia",
+            "surname": "Mirek",
+			"pesel": "61083036414",
+            "salary": 3100,
+            "position": 1,
+            "employment_date": "2016-01-08",
+			"promotion_date": "2016-01-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 305,
+        "fields": {
+            "supervisor": 4,
+            "name": "Konstancjusz",
+            "surname": "Fiedor",
+			"pesel": "61083036414",
+            "salary": 12000,
+            "position": 2,
+            "employment_date": "2015-06-20",
+			"promotion_date": "2015-06-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 306,
+        "fields": {
+            "supervisor": 3,
+            "name": "Magnus",
+            "surname": "Gancarczyk",
+			"pesel": "61083036414",
+            "salary": 12800,
+            "position": 9,
+            "employment_date": "2018-07-14",
+			"promotion_date": "2018-07-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 307,
+        "fields": {
+            "supervisor": 1,
+            "name": "Gustawa",
+            "surname": "\u0141ukaszyk",
+			"pesel": "61083036414",
+            "salary": 7000,
+            "position": 6,
+            "employment_date": "2015-02-06",
+			"promotion_date": "2015-02-06"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 308,
+        "fields": {
+            "supervisor": 3,
+            "name": "Lejla",
+            "surname": "Hernik",
+			"pesel": "61083036414",
+            "salary": 15000,
+            "position": 1,
+            "employment_date": "2015-11-13",
+			"promotion_date": "2015-11-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 309,
+        "fields": {
+            "supervisor": 3,
+            "name": "Pafnucy",
+            "surname": "Gil",
+			"pesel": "61083036414",
+            "salary": 4900,
+            "position": 4,
+            "employment_date": "2016-04-27",
+			"promotion_date": "2016-04-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 310,
+        "fields": {
+            "supervisor": 4,
+            "name": "Larysa",
+            "surname": "Szota",
+			"pesel": "61083036414",
+            "salary": 12000,
+            "position": 10,
+            "employment_date": "2017-07-09",
+			"promotion_date": "2017-07-09"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 311,
+        "fields": {
+            "supervisor": 1,
+            "name": "Eugenia",
+            "surname": "\u015amigielski",
+			"pesel": "61083036414",
+            "salary": 2300,
+            "position": 8,
+            "employment_date": "2018-09-02",
+			"promotion_date": "2018-09-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 312,
+        "fields": {
+            "supervisor": 1,
+            "name": "Stefania",
+            "surname": "Anders",
+			"pesel": "61083036414",
+            "salary": 10200,
+            "position": 9,
+            "employment_date": "2015-01-18",
+			"promotion_date": "2015-01-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 313,
+        "fields": {
+            "supervisor": 3,
+            "name": "Ludowit",
+            "surname": "Pepli\u0144ski",
+			"pesel": "61083036414",
+            "salary": 11300,
+            "position": 5,
+            "employment_date": "2015-11-20",
+			"promotion_date": "2015-11-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 314,
+        "fields": {
+            "supervisor": 4,
+            "name": "Zdzis\u0142awa",
+            "surname": "Piela",
+			"pesel": "61083036414",
+            "salary": 13900,
+            "position": 10,
+            "employment_date": "2017-10-15",
+			"promotion_date": "2017-10-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 315,
+        "fields": {
+            "supervisor": 4,
+            "name": "Piotr",
+            "surname": "Langa",
+			"pesel": "61083036414",
+            "salary": 4400,
+            "position": 9,
+            "employment_date": "2017-04-01",
+			"promotion_date": "2017-04-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 316,
+        "fields": {
+            "supervisor": 1,
+            "name": "Wilhelmina",
+            "surname": "Kwa\u015bna",
+			"pesel": "61083036414",
+            "salary": 5200,
+            "position": 10,
+            "employment_date": "2017-05-03",
+			"promotion_date": "2017-05-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 317,
+        "fields": {
+            "supervisor": 3,
+            "name": "Romuald",
+            "surname": "Poprawa",
+			"pesel": "61083036414",
+            "salary": 3600,
+            "position": 8,
+            "employment_date": "2015-09-25",
+			"promotion_date": "2015-09-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 318,
+        "fields": {
+            "supervisor": 1,
+            "name": "Hiacynta",
+            "surname": "Warszawski",
+			"pesel": "61083036414",
+            "salary": 6600,
+            "position": 8,
+            "employment_date": "2016-02-15",
+			"promotion_date": "2016-02-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 319,
+        "fields": {
+            "supervisor": 1,
+            "name": "Michalina",
+            "surname": "Augu\u015bcik",
+			"pesel": "61083036414",
+            "salary": 4600,
+            "position": 3,
+            "employment_date": "2018-04-22",
+			"promotion_date": "2018-04-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 320,
+        "fields": {
+            "supervisor": 4,
+            "name": "Witos\u0142aw",
+            "surname": "K\u0142opotowski",
+			"pesel": "61083036414",
+            "salary": 15800,
+            "position": 6,
+            "employment_date": "2016-04-28",
+			"promotion_date": "2016-04-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 321,
+        "fields": {
+            "supervisor": 4,
+            "name": "D\u017canan",
+            "surname": "Rogacki",
+			"pesel": "61083036414",
+            "salary": 14400,
+            "position": 9,
+            "employment_date": "2018-10-11",
+			"promotion_date": "2018-10-11"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 322,
+        "fields": {
+            "supervisor": 3,
+            "name": "Tulimira",
+            "surname": "Maroszek",
+			"pesel": "61083036414",
+            "salary": 15400,
+            "position": 6,
+            "employment_date": "2015-09-06",
+			"promotion_date": "2015-09-06"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 323,
+        "fields": {
+            "supervisor": 2,
+            "name": "Mariam",
+            "surname": "Boguszewski",
+			"pesel": "61083036414",
+            "salary": 16700,
+            "position": 1,
+            "employment_date": "2016-06-23",
+			"promotion_date": "2016-06-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 324,
+        "fields": {
+            "supervisor": 4,
+            "name": "Klaudiusz",
+            "surname": "Soja",
+			"pesel": "61083036414",
+            "salary": 14700,
+            "position": 8,
+            "employment_date": "2018-02-17",
+			"promotion_date": "2018-02-17"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 325,
+        "fields": {
+            "supervisor": 4,
+            "name": "Sulis\u0142aw",
+            "surname": "Czarnecki",
+			"pesel": "61083036414",
+            "salary": 17200,
+            "position": 10,
+            "employment_date": "2016-10-05",
+			"promotion_date": "2016-10-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 326,
+        "fields": {
+            "supervisor": 3,
+            "name": "Duszan",
+            "surname": "Krze\u015bniak",
+			"pesel": "61083036414",
+            "salary": 10000,
+            "position": 7,
+            "employment_date": "2018-02-18",
+			"promotion_date": "2018-02-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 327,
+        "fields": {
+            "supervisor": 3,
+            "name": "Marcjana",
+            "surname": "Ignatowicz",
+			"pesel": "61083036414",
+            "salary": 14600,
+            "position": 4,
+            "employment_date": "2016-04-12",
+			"promotion_date": "2016-04-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 328,
+        "fields": {
+            "supervisor": 3,
+            "name": "Alida",
+            "surname": "Kubica",
+			"pesel": "61083036414",
+            "salary": 2900,
+            "position": 2,
+            "employment_date": "2017-08-05",
+			"promotion_date": "2017-08-05"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 329,
+        "fields": {
+            "supervisor": 2,
+            "name": "Ozeasz",
+            "surname": "Ptak",
+			"pesel": "61083036414",
+            "salary": 6500,
+            "position": 10,
+            "employment_date": "2016-01-13",
+			"promotion_date": "2016-01-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 330,
+        "fields": {
+            "supervisor": 2,
+            "name": "Waleria",
+            "surname": "Jarz\u0105b",
+			"pesel": "61083036414",
+            "salary": 16800,
+            "position": 9,
+            "employment_date": "2018-01-03",
+			"promotion_date": "2018-01-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 331,
+        "fields": {
+            "supervisor": 2,
+            "name": "Astryda",
+            "surname": "Panek",
+			"pesel": "61083036414",
+            "salary": 16600,
+            "position": 4,
+            "employment_date": "2018-10-27",
+			"promotion_date": "2018-10-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 332,
+        "fields": {
+            "supervisor": 3,
+            "name": "Erazm",
+            "surname": "Sikora",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 1,
+            "employment_date": "2018-02-19",
+			"promotion_date": "2018-02-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 333,
+        "fields": {
+            "supervisor": 4,
+            "name": "Mateusz",
+            "surname": "Podkowa",
+			"pesel": "61083036414",
+            "salary": 5800,
+            "position": 7,
+            "employment_date": "2016-02-15",
+			"promotion_date": "2016-02-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 334,
+        "fields": {
+            "supervisor": 1,
+            "name": "Salomea",
+            "surname": "Matoga",
+			"pesel": "61083036414",
+            "salary": 9600,
+            "position": 4,
+            "employment_date": "2017-10-02",
+			"promotion_date": "2017-10-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 335,
+        "fields": {
+            "supervisor": 4,
+            "name": "Welika",
+            "surname": "Bekier",
+			"pesel": "61083036414",
+            "salary": 16500,
+            "position": 2,
+            "employment_date": "2018-03-18",
+			"promotion_date": "2018-03-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 336,
+        "fields": {
+            "supervisor": 4,
+            "name": "Pamela",
+            "surname": "G\u00f3rnicki",
+			"pesel": "61083036414",
+            "salary": 5400,
+            "position": 1,
+            "employment_date": "2018-02-01",
+			"promotion_date": "2018-02-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 337,
+        "fields": {
+            "supervisor": 3,
+            "name": "Felicjana",
+            "surname": "Patora",
+			"pesel": "61083036414",
+            "salary": 6700,
+            "position": 7,
+            "employment_date": "2018-10-19",
+			"promotion_date": "2018-10-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 338,
+        "fields": {
+            "supervisor": 2,
+            "name": "Konstanty",
+            "surname": "Dulski",
+			"pesel": "61083036414",
+            "salary": 15200,
+            "position": 2,
+            "employment_date": "2018-08-26",
+			"promotion_date": "2018-08-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 339,
+        "fields": {
+            "supervisor": 1,
+            "name": "Fera",
+            "surname": "\u0141yszczarz",
+			"pesel": "61083036414",
+            "salary": 16600,
+            "position": 2,
+            "employment_date": "2017-10-19",
+			"promotion_date": "2017-10-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 340,
+        "fields": {
+            "supervisor": 1,
+            "name": "Ziemowit",
+            "surname": "Bator",
+			"pesel": "61083036414",
+            "salary": 7000,
+            "position": 5,
+            "employment_date": "2016-09-26",
+			"promotion_date": "2016-09-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 341,
+        "fields": {
+            "supervisor": 3,
+            "name": "D\u017cesika",
+            "surname": "Wierzba",
+			"pesel": "61083036414",
+            "salary": 8600,
+            "position": 2,
+            "employment_date": "2018-02-23",
+			"promotion_date": "2018-02-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 342,
+        "fields": {
+            "supervisor": 2,
+            "name": "Celina",
+            "surname": "Pytlik",
+			"pesel": "61083036414",
+            "salary": 6600,
+            "position": 3,
+            "employment_date": "2016-10-01",
+			"promotion_date": "2016-10-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 343,
+        "fields": {
+            "supervisor": 2,
+            "name": "Rajner",
+            "surname": "Po\u017aniak",
+			"pesel": "61083036414",
+            "salary": 12100,
+            "position": 2,
+            "employment_date": "2018-04-28",
+			"promotion_date": "2018-04-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 344,
+        "fields": {
+            "supervisor": 1,
+            "name": "Irma",
+            "surname": "Napi\u00f3rkowski",
+			"pesel": "61083036414",
+            "salary": 15400,
+            "position": 5,
+            "employment_date": "2016-09-21",
+			"promotion_date": "2016-09-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 345,
+        "fields": {
+            "supervisor": 2,
+            "name": "Nikola",
+            "surname": "Jag\u0142a",
+			"pesel": "61083036414",
+            "salary": 11100,
+            "position": 8,
+            "employment_date": "2018-05-04",
+			"promotion_date": "2018-05-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 346,
+        "fields": {
+            "supervisor": 1,
+            "name": "Raszyda",
+            "surname": "Mielewczyk",
+			"pesel": "61083036414",
+            "salary": 14200,
+            "position": 10,
+            "employment_date": "2018-03-14",
+			"promotion_date": "2018-03-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 347,
+        "fields": {
+            "supervisor": 2,
+            "name": "Rajna",
+            "surname": "Drzewi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 6,
+            "employment_date": "2018-07-26",
+			"promotion_date": "2018-07-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 348,
+        "fields": {
+            "supervisor": 3,
+            "name": "Ska\u0142osz",
+            "surname": "Zmys\u0142owski",
+			"pesel": "61083036414",
+            "salary": 17700,
+            "position": 10,
+            "employment_date": "2018-01-14",
+			"promotion_date": "2018-01-14"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 349,
+        "fields": {
+            "supervisor": 4,
+            "name": "Radowit",
+            "surname": "Wo\u015b",
+			"pesel": "61083036414",
+            "salary": 10400,
+            "position": 8,
+            "employment_date": "2018-08-03",
+			"promotion_date": "2018-08-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 350,
+        "fields": {
+            "supervisor": 3,
+            "name": "Dagna",
+            "surname": "Martyniak",
+			"pesel": "61083036414",
+            "salary": 5600,
+            "position": 6,
+            "employment_date": "2018-05-21",
+			"promotion_date": "2018-05-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 351,
+        "fields": {
+            "supervisor": 3,
+            "name": "Cyryl",
+            "surname": "Matusik",
+			"pesel": "61083036414",
+            "salary": 19400,
+            "position": 1,
+            "employment_date": "2018-03-15",
+			"promotion_date": "2018-03-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 352,
+        "fields": {
+            "supervisor": 1,
+            "name": "Telimena",
+            "surname": "Majcher",
+			"pesel": "61083036414",
+            "salary": 3600,
+            "position": 9,
+            "employment_date": "2016-03-16",
+			"promotion_date": "2016-03-16"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 353,
+        "fields": {
+            "supervisor": 1,
+            "name": "Dalia",
+            "surname": "Rataj",
+			"pesel": "61083036414",
+            "salary": 17400,
+            "position": 9,
+            "employment_date": "2017-12-29",
+			"promotion_date": "2017-12-29"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 354,
+        "fields": {
+            "supervisor": 3,
+            "name": "Dobros\u0142aw",
+            "surname": "Kapczy\u0144ski",
+			"pesel": "61083036414",
+            "salary": 19700,
+            "position": 5,
+            "employment_date": "2017-11-13",
+			"promotion_date": "2017-11-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 355,
+        "fields": {
+            "supervisor": 3,
+            "name": "Danuta",
+            "surname": "Podolak",
+			"pesel": "61083036414",
+            "salary": 10000,
+            "position": 2,
+            "employment_date": "2016-01-22",
+			"promotion_date": "2016-01-22"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 356,
+        "fields": {
+            "supervisor": 1,
+            "name": "Apollina",
+            "surname": "Strojny",
+			"pesel": "61083036414",
+            "salary": 13500,
+            "position": 4,
+            "employment_date": "2018-03-04",
+			"promotion_date": "2018-03-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 357,
+        "fields": {
+            "supervisor": 2,
+            "name": "Zenobiusz",
+            "surname": "Wal",
+			"pesel": "61083036414",
+            "salary": 16300,
+            "position": 9,
+            "employment_date": "2016-10-26",
+			"promotion_date": "2016-10-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 358,
+        "fields": {
+            "supervisor": 2,
+            "name": "Manuel",
+            "surname": "Demianiuk",
+			"pesel": "61083036414",
+            "salary": 14900,
+            "position": 7,
+            "employment_date": "2017-04-30",
+			"promotion_date": "2017-04-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 359,
+        "fields": {
+            "supervisor": 2,
+            "name": "Amadeusz",
+            "surname": "Karbowniczek",
+			"pesel": "61083036414",
+            "salary": 2000,
+            "position": 9,
+            "employment_date": "2016-09-27",
+			"promotion_date": "2016-09-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 360,
+        "fields": {
+            "supervisor": 2,
+            "name": "Laura",
+            "surname": "Kostecki",
+			"pesel": "61083036414",
+            "salary": 7600,
+            "position": 8,
+            "employment_date": "2017-10-12",
+			"promotion_date": "2017-10-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 361,
+        "fields": {
+            "supervisor": 3,
+            "name": "Ilona",
+            "surname": "Rzeczkowski",
+			"pesel": "61083036414",
+            "salary": 8300,
+            "position": 5,
+            "employment_date": "2017-02-18",
+			"promotion_date": "2017-02-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 362,
+        "fields": {
+            "supervisor": 4,
+            "name": "Petronia",
+            "surname": "Pasi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 5000,
+            "position": 6,
+            "employment_date": "2015-02-02",
+			"promotion_date": "2015-02-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 363,
+        "fields": {
+            "supervisor": 4,
+            "name": "Justynian",
+            "surname": "Raczek",
+			"pesel": "61083036414",
+            "salary": 10800,
+            "position": 7,
+            "employment_date": "2015-01-04",
+			"promotion_date": "2015-01-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 364,
+        "fields": {
+            "supervisor": 2,
+            "name": "Lechos\u0142aw",
+            "surname": "Karolczak",
+			"pesel": "61083036414",
+            "salary": 7500,
+            "position": 2,
+            "employment_date": "2017-12-15",
+			"promotion_date": "2017-12-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 365,
+        "fields": {
+            "supervisor": 1,
+            "name": "Wojs\u0142aw",
+            "surname": "Borzyszkowski",
+			"pesel": "61083036414",
+            "salary": 9300,
+            "position": 8,
+            "employment_date": "2015-08-25",
+			"promotion_date": "2015-08-25"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 366,
+        "fields": {
+            "supervisor": 3,
+            "name": "Mieszko",
+            "surname": "Kalus",
+			"pesel": "61083036414",
+            "salary": 18800,
+            "position": 6,
+            "employment_date": "2015-02-21",
+			"promotion_date": "2015-02-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 367,
+        "fields": {
+            "supervisor": 3,
+            "name": "Leokadiusz",
+            "surname": "Rosiak",
+			"pesel": "61083036414",
+            "salary": 2500,
+            "position": 3,
+            "employment_date": "2015-06-01",
+			"promotion_date": "2015-06-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 368,
+        "fields": {
+            "supervisor": 3,
+            "name": "Wesna",
+            "surname": "Dubiel",
+			"pesel": "61083036414",
+            "salary": 9800,
+            "position": 9,
+            "employment_date": "2015-04-03",
+			"promotion_date": "2015-04-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 369,
+        "fields": {
+            "supervisor": 2,
+            "name": "Cichos\u0142aw",
+            "surname": "Zaleski",
+			"pesel": "61083036414",
+            "salary": 5800,
+            "position": 5,
+            "employment_date": "2015-03-30",
+			"promotion_date": "2015-03-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 370,
+        "fields": {
+            "supervisor": 4,
+            "name": "Laila",
+            "surname": "\u015al\u0119zak",
+			"pesel": "61083036414",
+            "salary": 11400,
+            "position": 9,
+            "employment_date": "2015-11-04",
+			"promotion_date": "2015-11-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 371,
+        "fields": {
+            "supervisor": 4,
+            "name": "Bart\u0142omieja",
+            "surname": "Ho\u0142da",
+			"pesel": "61083036414",
+            "salary": 10800,
+            "position": 9,
+            "employment_date": "2016-07-23",
+			"promotion_date": "2016-07-23"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 372,
+        "fields": {
+            "supervisor": 1,
+            "name": "Pankracy",
+            "surname": "Niewczas",
+			"pesel": "61083036414",
+            "salary": 10000,
+            "position": 4,
+            "employment_date": "2016-06-01",
+			"promotion_date": "2016-06-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 373,
+        "fields": {
+            "supervisor": 2,
+            "name": "S\u0119dzis\u0142awa",
+            "surname": "Krzemi\u0144ski",
+			"pesel": "61083036414",
+            "salary": 11900,
+            "position": 8,
+            "employment_date": "2018-01-31",
+			"promotion_date": "2018-01-31"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 374,
+        "fields": {
+            "supervisor": 4,
+            "name": "Olaf",
+            "surname": "Borek",
+			"pesel": "61083036414",
+            "salary": 17700,
+            "position": 5,
+            "employment_date": "2017-07-20",
+			"promotion_date": "2017-07-20"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 375,
+        "fields": {
+            "supervisor": 4,
+            "name": "Tacjana",
+            "surname": "Golonka",
+			"pesel": "61083036414",
+            "salary": 6000,
+            "position": 3,
+            "employment_date": "2015-11-26",
+			"promotion_date": "2015-11-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 376,
+        "fields": {
+            "supervisor": 1,
+            "name": "Bernadeta",
+            "surname": "Strzelec",
+			"pesel": "61083036414",
+            "salary": 3100,
+            "position": 6,
+            "employment_date": "2016-08-01",
+			"promotion_date": "2016-08-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 377,
+        "fields": {
+            "supervisor": 2,
+            "name": "Andrzej",
+            "surname": "Trzebiatowski",
+			"pesel": "61083036414",
+            "salary": 19400,
+            "position": 10,
+            "employment_date": "2017-04-02",
+			"promotion_date": "2017-04-02"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 378,
+        "fields": {
+            "supervisor": 1,
+            "name": "Adam",
+            "surname": "Gospodarczyk",
+			"pesel": "61083036414",
+            "salary": 7000,
+            "position": 2,
+            "employment_date": "2015-05-12",
+			"promotion_date": "2015-05-12"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 379,
+        "fields": {
+            "supervisor": 1,
+            "name": "Gaja",
+            "surname": "Kubi\u015b",
+			"pesel": "61083036414",
+            "salary": 12400,
+            "position": 2,
+            "employment_date": "2016-05-19",
+			"promotion_date": "2016-05-19"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 380,
+        "fields": {
+            "supervisor": 3,
+            "name": "Bo\u017cimir",
+            "surname": "Tarka",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 4,
+            "employment_date": "2018-04-03",
+			"promotion_date": "2018-04-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 381,
+        "fields": {
+            "supervisor": 2,
+            "name": "Magdalena",
+            "surname": "\u0141ukasik",
+			"pesel": "61083036414",
+            "salary": 8300,
+            "position": 2,
+            "employment_date": "2018-01-27",
+			"promotion_date": "2018-01-27"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 382,
+        "fields": {
+            "supervisor": 2,
+            "name": "Tobiasz",
+            "surname": "Niestr\u00f3j",
+			"pesel": "61083036414",
+            "salary": 8000,
+            "position": 7,
+            "employment_date": "2017-05-08",
+			"promotion_date": "2017-05-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 383,
+        "fields": {
+            "supervisor": 1,
+            "name": "Richariusz",
+            "surname": "Brzozowski",
+			"pesel": "61083036414",
+            "salary": 11800,
+            "position": 3,
+            "employment_date": "2015-10-28",
+			"promotion_date": "2015-10-28"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 384,
+        "fields": {
+            "supervisor": 4,
+            "name": "Barnim",
+            "surname": "Dere\u0144",
+			"pesel": "61083036414",
+            "salary": 5200,
+            "position": 6,
+            "employment_date": "2015-12-24",
+			"promotion_date": "2015-12-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 385,
+        "fields": {
+            "supervisor": 3,
+            "name": "Pelagiusz",
+            "surname": "Oko\u0144",
+			"pesel": "61083036414",
+            "salary": 5000,
+            "position": 6,
+            "employment_date": "2015-11-18",
+			"promotion_date": "2015-11-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 386,
+        "fields": {
+            "supervisor": 4,
+            "name": "Norbert",
+            "surname": "Florkowski",
+			"pesel": "61083036414",
+            "salary": 19800,
+            "position": 10,
+            "employment_date": "2016-07-24",
+			"promotion_date": "2016-07-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 387,
+        "fields": {
+            "supervisor": 4,
+            "name": "Zachariasz",
+            "surname": "Frankowski",
+			"pesel": "61083036414",
+            "salary": 14000,
+            "position": 10,
+            "employment_date": "2016-03-04",
+			"promotion_date": "2016-03-04"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 388,
+        "fields": {
+            "supervisor": 4,
+            "name": "Mi\u0142owita",
+            "surname": "Piaskowski",
+			"pesel": "61083036414",
+            "salary": 13100,
+            "position": 3,
+            "employment_date": "2018-02-13",
+			"promotion_date": "2018-02-13"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 389,
+        "fields": {
+            "supervisor": 2,
+            "name": "Izydora",
+            "surname": "Kuta",
+			"pesel": "61083036414",
+            "salary": 5200,
+            "position": 9,
+            "employment_date": "2018-06-21",
+			"promotion_date": "2018-06-21"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 390,
+        "fields": {
+            "supervisor": 1,
+            "name": "Aaron",
+            "surname": "Sasin",
+			"pesel": "61083036414",
+            "salary": 6100,
+            "position": 6,
+            "employment_date": "2017-01-18",
+			"promotion_date": "2017-01-18"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 391,
+        "fields": {
+            "supervisor": 4,
+            "name": "Danko",
+            "surname": "Wojcieszek",
+			"pesel": "61083036414",
+            "salary": 17900,
+            "position": 4,
+            "employment_date": "2016-10-30",
+			"promotion_date": "2016-10-30"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 392,
+        "fields": {
+            "supervisor": 4,
+            "name": "Wis\u0142aw",
+            "surname": "Fuda\u0142a",
+			"pesel": "61083036414",
+            "salary": 14800,
+            "position": 3,
+            "employment_date": "2015-12-08",
+			"promotion_date": "2015-12-08"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 393,
+        "fields": {
+            "supervisor": 2,
+            "name": "Tymon",
+            "surname": "Zem\u0142a",
+			"pesel": "61083036414",
+            "salary": 17700,
+            "position": 4,
+            "employment_date": "2016-10-06",
+			"promotion_date": "2016-10-06"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 394,
+        "fields": {
+            "supervisor": 4,
+            "name": "Wierada",
+            "surname": "Walicki",
+			"pesel": "61083036414",
+            "salary": 11700,
+            "position": 9,
+            "employment_date": "2018-04-01",
+			"promotion_date": "2018-04-01"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 395,
+        "fields": {
+            "supervisor": 1,
+            "name": "Sydoniusz",
+            "surname": "Garbarczyk",
+			"pesel": "61083036414",
+            "salary": 3500,
+            "position": 8,
+            "employment_date": "2015-11-15",
+			"promotion_date": "2015-11-15"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 396,
+        "fields": {
+            "supervisor": 2,
+            "name": "Ada",
+            "surname": "Nawrocki",
+			"pesel": "61083036414",
+            "salary": 8300,
+            "position": 5,
+            "employment_date": "2017-08-03",
+			"promotion_date": "2017-08-03"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 397,
+        "fields": {
+            "supervisor": 2,
+            "name": "Narcyza",
+            "surname": "Skrodzki",
+			"pesel": "61083036414",
+            "salary": 2200,
+            "position": 10,
+            "employment_date": "2016-03-26",
+			"promotion_date": "2016-03-26"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 398,
+        "fields": {
+            "supervisor": 1,
+            "name": "Berta",
+            "surname": "Ruszkowski",
+			"pesel": "61083036414",
+            "salary": 6900,
+            "position": 9,
+            "employment_date": "2016-09-24",
+			"promotion_date": "2016-09-24"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 399,
+        "fields": {
+            "supervisor": 4,
+            "name": "\u0141ukasz",
+            "surname": "\u017burowski",
+			"pesel": "61083036414",
+            "salary": 13600,
+            "position": 9,
+            "employment_date": "2018-05-16",
+			"promotion_date": "2018-05-16"
+        }
+    },
+    {
+        "model": "app.worker",
+        "pk": 400,
+        "fields": {
+            "supervisor": 4,
+            "name": "Nira",
+            "surname": "Kuku\u0142ka",
+			"pesel": "61083036414",
+            "salary": 14600,
+            "position": 5,
+            "employment_date": "2017-09-04",
+			"promotion_date": "2017-09-04"
+        }
+    }
+]

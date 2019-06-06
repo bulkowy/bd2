@@ -1,0 +1,24 @@
+{% extends "app/base_generic.html" %}
+
+{% block content %}
+  {% if worker %}
+    <h1>Pracownik {{ worker.name }} {{ worker.surname }}</h1>
+
+    Zarobki: {{ worker.salary }}</br>
+    Data Zatrudnienia: {{ date }}</br>
+    Konto Odpowiedzialne: {{ worker.supervisor.username }}</br>
+    {% if logs %}
+    Historia zmian uprawnien: </br>
+    {% for log in logs %}
+      <li>
+        <a href="{% url 'log_detail' log.id %}">{{ log.id }}</a>
+      </li>
+    {% endfor %}
+    {% endif %}
+
+  {% else %}
+    nie ma 
+  
+  {% endif %}
+
+{% endblock %}
