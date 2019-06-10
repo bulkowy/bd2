@@ -3,6 +3,7 @@
 {% block content %}
   <h1>Zastępstwa</h1>
 
+  <a href="{% url 'sub_create' %}"> Utwórz nowe zastępstwo</a></br></br>
   {% for sub in subs %}
     <li>
       <a href="{% url 'sub_detail' sub.id %}">Zastępstwo {{ sub.substituted_worker.name }} {{ sub.substituted_worker.surname }} przez {{ sub.substituting_worker.name }} {{ sub.substituting_worker.surname }}</a>

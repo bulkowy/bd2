@@ -3,9 +3,11 @@ from django.http import HttpResponse
 from django.template import loader
 from django.views import generic
 from django.http import Http404
+from django.urls import reverse_lazy
 from django.shortcuts import render
 from django.db.models import Q
 from app.models import *
+from app import forms
 # Create your views here.
 
 def index(request):
@@ -18,12 +20,17 @@ class WorkerListView(generic.ListView):
     template_name = 'app/workers.html'
 
     def get_queryset(self):
-        return self.request.user.worker_set.all()
+        queryset = super().get_queryset().filter(supervisor__id=self.request.user.id)
+        return queryset
 
 class WorkerDetailView(generic.DetailView):
     model = Worker
     context_object_name = 'worker'
     template_name = 'app/worker.html'
+
+    def get_queryset(self):
+        queryset = super().get_queryset().filter(supervisor__id=self.request.user.id)
+        return queryset
 
     def get(self, request, *args, **kwargs):
         self.object = self.get_object()
@@ -40,10 +47,18 @@ class SubListView(generic.ListView):
     queryset = Substitution.objects.all()
     template_name = 'app/subs.html'
 
+    def get_queryset(self):
+        queryset = super().get_queryset().filter(substituted_worker__supervisor__id=self.request.user.id)
+        return queryset
+
 class SubDetailView(generic.DetailView):
     model = Substitution
     context_object_name = 'sub'
     template_name = 'app/sub.html'
+
+    def get_queryset(self):
+        queryset = super().get_queryset().filter(substituted_worker__supervisor__id=self.request.user.id)
+        return queryset
 
     def sub_detail_view(request, primary_key):
         try:
@@ -51,10 +66,27 @@ class SubDetailView(generic.DetailView):
         except Substitution.DoesNotExist:
             raise Http404('Worker does not exist')
 
-        #subbed_pos = sub.substituted_worker.position
-        #subbing_pos = sub.substituting_worker.position
-
         return render(request, 'catalog/worker.html', context={'sub': sub})
+
+class SubCreateView(generic.CreateView):
+    model = Substitution
+    template_name = 'app/postsub.html'
+    success_url = reverse_lazy('sub_list')
+    form_class = forms.SubstitutionForm
+
+    def get_form_class(self):
+        form = super().get_form_class()
+        print(form.__dict__)
+
+        form.base_fields['substituted_worker'].queryset = Worker.objects.filter(supervisor=self.request.user)
+        form.base_fields['substituting_worker'].queryset = Worker.objects.filter(supervisor=self.request.user)
+
+        return form
+
+class SubDeleteView(generic.DeleteView):
+    model = Substitution
+    template_name = 'app/deletesub.html'
+    success_url = reverse_lazy('sub_list')
 
 class LogListView(generic.ListView):
     model = LogEntry

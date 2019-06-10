@@ -6,9 +6,11 @@
 
     Zastępowany jest przez: <a href="{% url 'worker_detail' sub.substituting_worker.id %}">{{ sub.substituting_worker.name }} {{ sub.substituting_worker.surname }}</a></br>
 
-    Powód Zastępstwa: {{ sub.reason }}
+    Powód Zastępstwa: {{ sub.reason }} </br>
 
-    Uprawnienia uzyskane przez zastępującego:
+    <a href="{% url 'sub_delete' sub.id %}">Usuń to zastępstwo</a></br>
+
+    Uprawnienia uzyskane przez zastępującego:</br>
 
   {% else %}
     nie ma 

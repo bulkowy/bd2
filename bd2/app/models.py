@@ -44,6 +44,11 @@ class Worker(models.Model):
         auto_now=False,
         auto_now_add=False,
     )
+    can_be_subbed_by = models.ManyToManyField(
+        "Worker", 
+        verbose_name="Can Be Subbed By",
+        blank=True
+    )
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -194,20 +199,16 @@ class LogEntry(models.Model):
         null=True,
         blank=True,
     )
-    old_position = models.ForeignKey(
-        "Position",
-        verbose_name="Old Position",
-        related_name="oldpos",
-        on_delete=models.SET_NULL,
-        null=True,
+    old_perms = models.ManyToManyField(
+        "Permission",
+        verbose_name="Old Permissions",
+        related_name="oldperms",
         blank=True,
     )
-    new_position = models.ForeignKey(
-        "Position",
-        verbose_name="New Position",
-        related_name="newpos",
-        on_delete=models.SET_NULL,
-        null=True,
+    new_perms = models.ManyToManyField(
+        "Permission",
+        verbose_name="New Permissions",
+        related_name="newperms",
         blank=True,
     )
 

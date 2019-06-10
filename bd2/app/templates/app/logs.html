@@ -1,12 +1,28 @@
 {% extends "app/base_generic.html" %}
-
 {% block content %}
-  <h1>Wpisy Historyczne</h1>
-
-  {% for log in logs %}
-    <li>
-      <a href="{% url 'log_detail' log.id %}">Zmiana uprawnień pracownika {{ log.logstituted_worker.name }} {{ log.logstituted_worker.surname }}</a>
-    </li>
-  {% endfor %}
-
+  <h1>Zdarzenia:</h1>
+	<table>
+    	<tr>
+  		<th>ID</th>
+  		<th>Substitute Begin</th>
+            <th>Substitute End</th>
+            <th>New Position</th>
+            <th>Old Position</th>
+            <th>Reason</th>
+            <th>Subbed</th>
+            <th>Subbing</th>
+	</tr>
+  	{% for log in logs %}
+	<tr>
+  		<td>{{ log.id }}</td>
+  		<td>{{ log.substitute_begin }}</td>
+            	<td>{{ log.substitute_end }}</td>
+            	<td>{{ log.new_position }}</td>
+            	<td>{{ log.old_position }}</td>
+            	<td>{{ log.reason }}</td>
+            	<td>{{ log.subbed }}</td>
+            	<td>{{ log.subbing }}</td>
+	</tr>
+      {% endfor %}
+	</table>
 {% endblock %}
